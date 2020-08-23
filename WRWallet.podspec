@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   s.name         = "WRWallet"
-  s.version      = "v0.0.1"
+  s.version      = "0.0.1"
   s.ios.deployment_target = '9.0'
   s.summary      = "项目SDK."
   s.homepage     = "https://github.com/marsLiuFei/WRWallet"
