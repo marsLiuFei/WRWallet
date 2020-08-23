@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "WRWallet"
   s.version      = "0.0.1"
   s.ios.deployment_target = '9.0'
-  s.summary      = "项目SDK."
+  s.summary      = "钱包项目SDK"
   s.homepage     = "https://github.com/marsLiuFei/WRWallet"
   s.social_media_url = 'https://www.baidu.com'
   s.license      = "MIT"
@@ -10,7 +10,8 @@ Pod::Spec.new do |s|
   s.author       = { "mars_liu_dev" => "mars_liu_dev@163.com" }
   s.source       = { :git => "https://github.com/marsLiuFei/WRWallet.git", :tag => s.version }
   s.requires_arc = true
-  s.source_files = 'WRWallet/*'
+  s.source_files = 'WRWallet/WRWallet/*'
+  s.resources          = "WRWallet/WRWallet/Resources.bundle"
   s.dependency  'Masonry'
   s.dependency  'MJRefresh'
   s.dependency  'MJExtension'
