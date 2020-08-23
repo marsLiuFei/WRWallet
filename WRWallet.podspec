@@ -19,7 +19,6 @@ Pod::Spec.new do |s|
   s.dependency  'SDWebImage'
   s.dependency  'CRBoxInputView', '~> 1.2.1'
   
-  s.vendored_frameworks = 'WRWallet.framework'
   s.requires_arc = true
 
 end
