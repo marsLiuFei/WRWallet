@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/marsLiuFei/WRWallet.git", :tag => s.version }
   s.requires_arc = true
   s.source_files = 'WRWallet/*'
-  s.resources    = "WRWallet/Resources.bundle"
   s.dependency  'Masonry'
   s.dependency  'MJRefresh'
   s.dependency  'MJExtension'
