@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/marsLiuFei/WRWallet"
   s.license              = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "mars_liu_dev" => "mars_liu_dev@163.com" }
-  s.source       = { :git => "https://github.com/marsLiuFei/WRWallet", :tag => s.version }
+  s.source       = { :git => "https://github.com/marsLiuFei/WRWallet.git", :tag => s.version }
   #s.source_files  = "WRWallet/*"
   
   s.dependency  'Masonry'
