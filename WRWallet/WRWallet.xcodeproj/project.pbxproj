@@ -1,0 +1,1200 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		630914BC4FA43D2974C12918 /* Pods_WRWallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719D78F86B672872839DD325 /* Pods_WRWallet.framework */; };
+		BDBBADF924EC284E00B523BB /* RefreshNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAD5A24EC284D00B523BB /* RefreshNormalFooter.h */; };
+		BDBBADFA24EC284E00B523BB /* RefreshNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAD5B24EC284D00B523BB /* RefreshNormalFooter.m */; };
+		BDBBADFB24EC284E00B523BB /* RefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAD5D24EC284D00B523BB /* RefreshNormalHeader.h */; };
+		BDBBADFC24EC284E00B523BB /* RefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAD5E24EC284D00B523BB /* RefreshNormalHeader.m */; };
+		BDBBADFD24EC284E00B523BB /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAD6024EC284D00B523BB /* NSString+Hash.m */; };
+		BDBBADFE24EC284E00B523BB /* UIColor+GeneralColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAD6124EC284D00B523BB /* UIColor+GeneralColor.m */; };
+		BDBBADFF24EC284E00B523BB /* UIView+SetSize.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAD6224EC284D00B523BB /* UIView+SetSize.h */; };
+		BDBBAE0024EC284E00B523BB /* NSDate+GeneralDate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAD6324EC284D00B523BB /* NSDate+GeneralDate.m */; };
+		BDBBAE0124EC284E00B523BB /* UIImage+GeneralImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAD6424EC284D00B523BB /* UIImage+GeneralImage.m */; };
+		BDBBAE0224EC284E00B523BB /* UIColor+GeneralColor.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAD6524EC284D00B523BB /* UIColor+GeneralColor.h */; };
+		BDBBAE0324EC284E00B523BB /* NSString+Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAD6624EC284D00B523BB /* NSString+Hash.h */; };
+		BDBBAE0424EC284E00B523BB /* UIView+SetSize.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAD6724EC284D00B523BB /* UIView+SetSize.m */; };
+		BDBBAE0524EC284E00B523BB /* NSDate+GeneralDate.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAD6824EC284D00B523BB /* NSDate+GeneralDate.h */; };
+		BDBBAE0624EC284E00B523BB /* UIImage+GeneralImage.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAD6924EC284D00B523BB /* UIImage+GeneralImage.h */; };
+		BDBBAE0724EC284E00B523BB /* DeviceDataLibrery.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAD6B24EC284D00B523BB /* DeviceDataLibrery.h */; };
+		BDBBAE0824EC284E00B523BB /* PhoneInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAD6C24EC284D00B523BB /* PhoneInfo.h */; };
+		BDBBAE0924EC284E00B523BB /* PhoneInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAD6D24EC284D00B523BB /* PhoneInfo.m */; };
+		BDBBAE0A24EC284E00B523BB /* DeviceDataLibrery.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAD6E24EC284D00B523BB /* DeviceDataLibrery.m */; };
+		BDBBAE0B24EC284E00B523BB /* GetUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAD7024EC284D00B523BB /* GetUUID.m */; };
+		BDBBAE0C24EC284E00B523BB /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAD7124EC284D00B523BB /* SSKeychain.h */; };
+		BDBBAE0D24EC284E00B523BB /* GetUUID.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAD7224EC284D00B523BB /* GetUUID.h */; };
+		BDBBAE0E24EC284E00B523BB /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAD7324EC284D00B523BB /* SSKeychain.m */; };
+		BDBBAE0F24EC284E00B523BB /* GeneralTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAD7424EC284D00B523BB /* GeneralTool.m */; };
+		BDBBAE1024EC284E00B523BB /* ViewCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAD7624EC284D00B523BB /* ViewCreate.m */; };
+		BDBBAE1124EC284E00B523BB /* ViewCreate.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAD7724EC284D00B523BB /* ViewCreate.h */; };
+		BDBBAE1224EC284E00B523BB /* GeneralColor.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAD7924EC284E00B523BB /* GeneralColor.h */; };
+		BDBBAE1324EC284E00B523BB /* GeneralMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAD7A24EC284E00B523BB /* GeneralMacro.h */; };
+		BDBBAE1424EC284E00B523BB /* GeneralFont.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAD7B24EC284E00B523BB /* GeneralFont.h */; };
+		BDBBAE1624EC284E00B523BB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAD7F24EC284E00B523BB /* Reachability.m */; };
+		BDBBAE1724EC284E00B523BB /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAD8024EC284E00B523BB /* Reachability.h */; };
+		BDBBAE1824EC284E00B523BB /* HUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAD8124EC284E00B523BB /* HUDManager.h */; };
+		BDBBAE1924EC284E00B523BB /* HUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAD8224EC284E00B523BB /* HUDManager.m */; };
+		BDBBAE1A24EC284E00B523BB /* GeneralTool.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAD8324EC284E00B523BB /* GeneralTool.h */; };
+		BDBBAE1B24EC284E00B523BB /* WRPayPasswordAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAD8624EC284E00B523BB /* WRPayPasswordAlertView.m */; };
+		BDBBAE1C24EC284E00B523BB /* WRPayAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAD8724EC284E00B523BB /* WRPayAlertView.m */; };
+		BDBBAE1D24EC284E00B523BB /* WRPayPasswordAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAD8824EC284E00B523BB /* WRPayPasswordAlertView.h */; };
+		BDBBAE1E24EC284E00B523BB /* WRPayAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAD8924EC284E00B523BB /* WRPayAlertView.h */; };
+		BDBBAE1F24EC284E00B523BB /* WRElectronicAccountController.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAD8C24EC284E00B523BB /* WRElectronicAccountController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDBBAE2024EC284E00B523BB /* WRAccountManagerController.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAD8D24EC284E00B523BB /* WRAccountManagerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDBBAE2124EC284E00B523BB /* WRElectronicAccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAD8E24EC284E00B523BB /* WRElectronicAccountController.m */; };
+		BDBBAE2224EC284E00B523BB /* WRAccountManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAD8F24EC284E00B523BB /* WRAccountManagerController.m */; };
+		BDBBAE2324EC284E00B523BB /* WRElectronicAccountView.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAD9124EC284E00B523BB /* WRElectronicAccountView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDBBAE2424EC284E00B523BB /* WRAccountManagerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAD9224EC284E00B523BB /* WRAccountManagerCell.h */; };
+		BDBBAE2524EC284E00B523BB /* WRElectronicAccountCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAD9324EC284E00B523BB /* WRElectronicAccountCell.h */; };
+		BDBBAE2624EC284E00B523BB /* WRElectronicAccountHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAD9424EC284E00B523BB /* WRElectronicAccountHeadView.m */; };
+		BDBBAE2724EC284E00B523BB /* WRAccountManagerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAD9524EC284E00B523BB /* WRAccountManagerCell.m */; };
+		BDBBAE2824EC284E00B523BB /* WRElectronicAccountView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAD9624EC284E00B523BB /* WRElectronicAccountView.m */; };
+		BDBBAE2924EC284E00B523BB /* WRElectronicAccountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAD9724EC284E00B523BB /* WRElectronicAccountCell.m */; };
+		BDBBAE2A24EC284E00B523BB /* WRElectronicAccountHeadView.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAD9824EC284E00B523BB /* WRElectronicAccountHeadView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDBBAE2B24EC284E00B523BB /* WRRechargeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAD9B24EC284E00B523BB /* WRRechargeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDBBAE2C24EC284E00B523BB /* WRRechargeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAD9C24EC284E00B523BB /* WRRechargeViewController.m */; };
+		BDBBAE2D24EC284E00B523BB /* WRRechargeInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAD9E24EC284E00B523BB /* WRRechargeInputCell.m */; };
+		BDBBAE2E24EC284E00B523BB /* WRRechargeNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAD9F24EC284E00B523BB /* WRRechargeNormalCell.m */; };
+		BDBBAE2F24EC284E00B523BB /* WRRechargeSuccessView.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADA024EC284E00B523BB /* WRRechargeSuccessView.h */; };
+		BDBBAE3024EC284E00B523BB /* WRRechargeNormalCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADA124EC284E00B523BB /* WRRechargeNormalCell.h */; };
+		BDBBAE3124EC284E00B523BB /* WRRechargeInputCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADA224EC284E00B523BB /* WRRechargeInputCell.h */; };
+		BDBBAE3224EC284E00B523BB /* WRRechargeSuccessView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADA324EC284E00B523BB /* WRRechargeSuccessView.m */; };
+		BDBBAE3324EC284E00B523BB /* WRBankCardNewNumberController.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADA724EC284E00B523BB /* WRBankCardNewNumberController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDBBAE3424EC284E00B523BB /* WRBankCardChangeSuccessController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADA824EC284E00B523BB /* WRBankCardChangeSuccessController.m */; };
+		BDBBAE3524EC284E00B523BB /* WRBankCardChangeFailController.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADA924EC284E00B523BB /* WRBankCardChangeFailController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDBBAE3624EC284E00B523BB /* WRBankCardChangeController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADAA24EC284E00B523BB /* WRBankCardChangeController.m */; };
+		BDBBAE3724EC284E00B523BB /* WRBankCardChangeSuccessController.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADAB24EC284E00B523BB /* WRBankCardChangeSuccessController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDBBAE3824EC284E00B523BB /* WRBankCardNewNumberController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADAC24EC284E00B523BB /* WRBankCardNewNumberController.m */; };
+		BDBBAE3924EC284E00B523BB /* WRBankCardChangeController.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADAD24EC284E00B523BB /* WRBankCardChangeController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDBBAE3A24EC284E00B523BB /* WRBankCardChangeFailController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADAE24EC284E00B523BB /* WRBankCardChangeFailController.m */; };
+		BDBBAE3B24EC284E00B523BB /* WRUntieBankCardSuccessController.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADB224EC284E00B523BB /* WRUntieBankCardSuccessController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDBBAE3C24EC284E00B523BB /* WRUntieBankCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADB324EC284E00B523BB /* WRUntieBankCardViewController.m */; };
+		BDBBAE3D24EC284E00B523BB /* WRUntieBankCardSuccessController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADB424EC284E00B523BB /* WRUntieBankCardSuccessController.m */; };
+		BDBBAE3E24EC284E00B523BB /* WRUntieBankCardViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADB524EC284E00B523BB /* WRUntieBankCardViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDBBAE3F24EC284E00B523BB /* WRBankCardManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADB724EC284E00B523BB /* WRBankCardManagerController.m */; };
+		BDBBAE4024EC284E00B523BB /* WRBankCardManagerController.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADB824EC284E00B523BB /* WRBankCardManagerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDBBAE4124EC284E00B523BB /* WRBankCardManagerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADBA24EC284E00B523BB /* WRBankCardManagerCell.m */; };
+		BDBBAE4224EC284E00B523BB /* WRBankCardManagerHeadView.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADBB24EC284E00B523BB /* WRBankCardManagerHeadView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDBBAE4324EC284E00B523BB /* WRBankCardManagerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADBC24EC284E00B523BB /* WRBankCardManagerCell.h */; };
+		BDBBAE4424EC284E00B523BB /* WRBankCardManagerHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADBD24EC284E00B523BB /* WRBankCardManagerHeadView.m */; };
+		BDBBAE4524EC284E00B523BB /* WalletViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADC024EC284E00B523BB /* WalletViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDBBAE4624EC284E00B523BB /* WalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADC124EC284E00B523BB /* WalletViewController.m */; };
+		BDBBAE4724EC284E00B523BB /* WalletRowModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADC324EC284E00B523BB /* WalletRowModel.h */; };
+		BDBBAE4824EC284E00B523BB /* WalletSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADC424EC284E00B523BB /* WalletSectionModel.m */; };
+		BDBBAE4924EC284E00B523BB /* WalletRowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADC524EC284E00B523BB /* WalletRowModel.m */; };
+		BDBBAE4A24EC284E00B523BB /* WalletSectionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADC624EC284E00B523BB /* WalletSectionModel.h */; };
+		BDBBAE4B24EC284F00B523BB /* NormalTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADC824EC284E00B523BB /* NormalTableViewCell.h */; };
+		BDBBAE4C24EC284F00B523BB /* ManagerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADC924EC284E00B523BB /* ManagerCollectionViewCell.m */; };
+		BDBBAE4D24EC284F00B523BB /* WalletHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADCA24EC284E00B523BB /* WalletHeaderView.m */; };
+		BDBBAE4E24EC284F00B523BB /* WalletBottomView.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADCB24EC284E00B523BB /* WalletBottomView.h */; };
+		BDBBAE4F24EC284F00B523BB /* FinancialTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADCC24EC284E00B523BB /* FinancialTableViewCell.h */; };
+		BDBBAE5024EC284F00B523BB /* ManagerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADCD24EC284E00B523BB /* ManagerTableViewCell.m */; };
+		BDBBAE5124EC284F00B523BB /* WalletTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADCE24EC284E00B523BB /* WalletTopView.m */; };
+		BDBBAE5224EC284F00B523BB /* WalletHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADCF24EC284E00B523BB /* WalletHeaderView.h */; };
+		BDBBAE5324EC284F00B523BB /* ManagerCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADD024EC284E00B523BB /* ManagerCollectionViewCell.h */; };
+		BDBBAE5424EC284F00B523BB /* NormalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADD124EC284E00B523BB /* NormalTableViewCell.m */; };
+		BDBBAE5524EC284F00B523BB /* FinancialTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADD224EC284E00B523BB /* FinancialTableViewCell.m */; };
+		BDBBAE5624EC284F00B523BB /* WalletBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADD324EC284E00B523BB /* WalletBottomView.m */; };
+		BDBBAE5724EC284F00B523BB /* ManagerTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADD424EC284E00B523BB /* ManagerTableViewCell.h */; };
+		BDBBAE5824EC284F00B523BB /* WalletTopView.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADD524EC284E00B523BB /* WalletTopView.h */; };
+		BDBBAE5924EC284F00B523BB /* WRWithdrawViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADD824EC284E00B523BB /* WRWithdrawViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDBBAE5A24EC284F00B523BB /* WRWithdrawPasswordViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADD924EC284E00B523BB /* WRWithdrawPasswordViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDBBAE5B24EC284F00B523BB /* WRWithdrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADDA24EC284E00B523BB /* WRWithdrawViewController.m */; };
+		BDBBAE5C24EC284F00B523BB /* WRWithdrawPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADDB24EC284E00B523BB /* WRWithdrawPasswordViewController.m */; };
+		BDBBAE5D24EC284F00B523BB /* WRWithdrawNormalCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADDD24EC284E00B523BB /* WRWithdrawNormalCell.h */; };
+		BDBBAE5E24EC284F00B523BB /* WRWithdrawInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADDE24EC284E00B523BB /* WRWithdrawInputCell.m */; };
+		BDBBAE5F24EC284F00B523BB /* WRWithdrawInputCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADDF24EC284E00B523BB /* WRWithdrawInputCell.h */; };
+		BDBBAE6024EC284F00B523BB /* WRWithdrawNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADE024EC284E00B523BB /* WRWithdrawNormalCell.m */; };
+		BDBBAE6124EC284F00B523BB /* OpenProtocolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADE324EC284E00B523BB /* OpenProtocolViewController.m */; };
+		BDBBAE6224EC284F00B523BB /* OpenViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADE424EC284E00B523BB /* OpenViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDBBAE6324EC284F00B523BB /* WROpenSuccessViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADE524EC284E00B523BB /* WROpenSuccessViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDBBAE6424EC284F00B523BB /* OpenProtocolViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADE624EC284E00B523BB /* OpenProtocolViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDBBAE6524EC284F00B523BB /* WROpenSuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADE724EC284E00B523BB /* WROpenSuccessViewController.m */; };
+		BDBBAE6624EC284F00B523BB /* OpenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADE824EC284E00B523BB /* OpenViewController.m */; };
+		BDBBAE6724EC284F00B523BB /* OpenInputModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADEA24EC284E00B523BB /* OpenInputModel.h */; };
+		BDBBAE6824EC284F00B523BB /* OpenInputModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADEB24EC284E00B523BB /* OpenInputModel.m */; };
+		BDBBAE6924EC284F00B523BB /* OpenInputTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADED24EC284E00B523BB /* OpenInputTableViewCell.h */; };
+		BDBBAE6A24EC284F00B523BB /* OpenSwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADEE24EC284E00B523BB /* OpenSwitchTableViewCell.m */; };
+		BDBBAE6B24EC284F00B523BB /* OpenInputTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADEF24EC284E00B523BB /* OpenInputTableViewCell.m */; };
+		BDBBAE6C24EC284F00B523BB /* OpenSwitchTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADF024EC284E00B523BB /* OpenSwitchTableViewCell.h */; };
+		BDBBAE6D24EC284F00B523BB /* BaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADF324EC284E00B523BB /* BaseWebViewController.m */; };
+		BDBBAE6E24EC284F00B523BB /* BaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADF424EC284E00B523BB /* BaseNavViewController.m */; };
+		BDBBAE6F24EC284F00B523BB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBADF524EC284E00B523BB /* BaseViewController.m */; };
+		BDBBAE7024EC284F00B523BB /* BaseNavViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADF624EC284E00B523BB /* BaseNavViewController.h */; };
+		BDBBAE7124EC284F00B523BB /* BaseWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADF724EC284E00B523BB /* BaseWebViewController.h */; };
+		BDBBAE7224EC284F00B523BB /* BaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBADF824EC284E00B523BB /* BaseViewController.h */; };
+		BDBBAE7424EC2A9600B523BB /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BDBBAE7324EC2A9600B523BB /* Resources.bundle */; };
+		BDBBAE7624EC2F1900B523BB /* WRPrefixHeader.pch in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAE7524EC2F1900B523BB /* WRPrefixHeader.pch */; };
+		BDBBAE7B24EC336900B523BB /* WRWalletManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBAE7924EC336900B523BB /* WRWalletManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDBBAE7C24EC336900B523BB /* WRWalletManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBAE7A24EC336900B523BB /* WRWalletManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4BF87F6D6C67D80520479081 /* Pods-WRWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WRWallet.debug.xcconfig"; path = "Target Support Files/Pods-WRWallet/Pods-WRWallet.debug.xcconfig"; sourceTree = "<group>"; };
+		6C87FF9E8F55368D964D2D64 /* Pods-WRWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WRWallet.release.xcconfig"; path = "Target Support Files/Pods-WRWallet/Pods-WRWallet.release.xcconfig"; sourceTree = "<group>"; };
+		719D78F86B672872839DD325 /* Pods_WRWallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WRWallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBBAD4C24EC271900B523BB /* WRWallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WRWallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBBAD5024EC271900B523BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDBBAD5A24EC284D00B523BB /* RefreshNormalFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshNormalFooter.h; sourceTree = "<group>"; };
+		BDBBAD5B24EC284D00B523BB /* RefreshNormalFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshNormalFooter.m; sourceTree = "<group>"; };
+		BDBBAD5D24EC284D00B523BB /* RefreshNormalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshNormalHeader.h; sourceTree = "<group>"; };
+		BDBBAD5E24EC284D00B523BB /* RefreshNormalHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshNormalHeader.m; sourceTree = "<group>"; };
+		BDBBAD6024EC284D00B523BB /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		BDBBAD6124EC284D00B523BB /* UIColor+GeneralColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GeneralColor.m"; sourceTree = "<group>"; };
+		BDBBAD6224EC284D00B523BB /* UIView+SetSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SetSize.h"; sourceTree = "<group>"; };
+		BDBBAD6324EC284D00B523BB /* NSDate+GeneralDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+GeneralDate.m"; sourceTree = "<group>"; };
+		BDBBAD6424EC284D00B523BB /* UIImage+GeneralImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GeneralImage.m"; sourceTree = "<group>"; };
+		BDBBAD6524EC284D00B523BB /* UIColor+GeneralColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GeneralColor.h"; sourceTree = "<group>"; };
+		BDBBAD6624EC284D00B523BB /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		BDBBAD6724EC284D00B523BB /* UIView+SetSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SetSize.m"; sourceTree = "<group>"; };
+		BDBBAD6824EC284D00B523BB /* NSDate+GeneralDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+GeneralDate.h"; sourceTree = "<group>"; };
+		BDBBAD6924EC284D00B523BB /* UIImage+GeneralImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GeneralImage.h"; sourceTree = "<group>"; };
+		BDBBAD6B24EC284D00B523BB /* DeviceDataLibrery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDataLibrery.h; sourceTree = "<group>"; };
+		BDBBAD6C24EC284D00B523BB /* PhoneInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneInfo.h; sourceTree = "<group>"; };
+		BDBBAD6D24EC284D00B523BB /* PhoneInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneInfo.m; sourceTree = "<group>"; };
+		BDBBAD6E24EC284D00B523BB /* DeviceDataLibrery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDataLibrery.m; sourceTree = "<group>"; };
+		BDBBAD7024EC284D00B523BB /* GetUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetUUID.m; sourceTree = "<group>"; };
+		BDBBAD7124EC284D00B523BB /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		BDBBAD7224EC284D00B523BB /* GetUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetUUID.h; sourceTree = "<group>"; };
+		BDBBAD7324EC284D00B523BB /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		BDBBAD7424EC284D00B523BB /* GeneralTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralTool.m; sourceTree = "<group>"; };
+		BDBBAD7624EC284D00B523BB /* ViewCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewCreate.m; sourceTree = "<group>"; };
+		BDBBAD7724EC284D00B523BB /* ViewCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewCreate.h; sourceTree = "<group>"; };
+		BDBBAD7924EC284E00B523BB /* GeneralColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralColor.h; sourceTree = "<group>"; };
+		BDBBAD7A24EC284E00B523BB /* GeneralMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralMacro.h; sourceTree = "<group>"; };
+		BDBBAD7B24EC284E00B523BB /* GeneralFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralFont.h; sourceTree = "<group>"; };
+		BDBBAD7F24EC284E00B523BB /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		BDBBAD8024EC284E00B523BB /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		BDBBAD8124EC284E00B523BB /* HUDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDManager.h; sourceTree = "<group>"; };
+		BDBBAD8224EC284E00B523BB /* HUDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDManager.m; sourceTree = "<group>"; };
+		BDBBAD8324EC284E00B523BB /* GeneralTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralTool.h; sourceTree = "<group>"; };
+		BDBBAD8624EC284E00B523BB /* WRPayPasswordAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRPayPasswordAlertView.m; sourceTree = "<group>"; };
+		BDBBAD8724EC284E00B523BB /* WRPayAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRPayAlertView.m; sourceTree = "<group>"; };
+		BDBBAD8824EC284E00B523BB /* WRPayPasswordAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRPayPasswordAlertView.h; sourceTree = "<group>"; };
+		BDBBAD8924EC284E00B523BB /* WRPayAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRPayAlertView.h; sourceTree = "<group>"; };
+		BDBBAD8C24EC284E00B523BB /* WRElectronicAccountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRElectronicAccountController.h; sourceTree = "<group>"; };
+		BDBBAD8D24EC284E00B523BB /* WRAccountManagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRAccountManagerController.h; sourceTree = "<group>"; };
+		BDBBAD8E24EC284E00B523BB /* WRElectronicAccountController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRElectronicAccountController.m; sourceTree = "<group>"; };
+		BDBBAD8F24EC284E00B523BB /* WRAccountManagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRAccountManagerController.m; sourceTree = "<group>"; };
+		BDBBAD9124EC284E00B523BB /* WRElectronicAccountView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRElectronicAccountView.h; sourceTree = "<group>"; };
+		BDBBAD9224EC284E00B523BB /* WRAccountManagerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRAccountManagerCell.h; sourceTree = "<group>"; };
+		BDBBAD9324EC284E00B523BB /* WRElectronicAccountCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRElectronicAccountCell.h; sourceTree = "<group>"; };
+		BDBBAD9424EC284E00B523BB /* WRElectronicAccountHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRElectronicAccountHeadView.m; sourceTree = "<group>"; };
+		BDBBAD9524EC284E00B523BB /* WRAccountManagerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRAccountManagerCell.m; sourceTree = "<group>"; };
+		BDBBAD9624EC284E00B523BB /* WRElectronicAccountView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRElectronicAccountView.m; sourceTree = "<group>"; };
+		BDBBAD9724EC284E00B523BB /* WRElectronicAccountCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRElectronicAccountCell.m; sourceTree = "<group>"; };
+		BDBBAD9824EC284E00B523BB /* WRElectronicAccountHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRElectronicAccountHeadView.h; sourceTree = "<group>"; };
+		BDBBAD9B24EC284E00B523BB /* WRRechargeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRRechargeViewController.h; sourceTree = "<group>"; };
+		BDBBAD9C24EC284E00B523BB /* WRRechargeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRRechargeViewController.m; sourceTree = "<group>"; };
+		BDBBAD9E24EC284E00B523BB /* WRRechargeInputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRRechargeInputCell.m; sourceTree = "<group>"; };
+		BDBBAD9F24EC284E00B523BB /* WRRechargeNormalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRRechargeNormalCell.m; sourceTree = "<group>"; };
+		BDBBADA024EC284E00B523BB /* WRRechargeSuccessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRRechargeSuccessView.h; sourceTree = "<group>"; };
+		BDBBADA124EC284E00B523BB /* WRRechargeNormalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRRechargeNormalCell.h; sourceTree = "<group>"; };
+		BDBBADA224EC284E00B523BB /* WRRechargeInputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRRechargeInputCell.h; sourceTree = "<group>"; };
+		BDBBADA324EC284E00B523BB /* WRRechargeSuccessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRRechargeSuccessView.m; sourceTree = "<group>"; };
+		BDBBADA724EC284E00B523BB /* WRBankCardNewNumberController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRBankCardNewNumberController.h; sourceTree = "<group>"; };
+		BDBBADA824EC284E00B523BB /* WRBankCardChangeSuccessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRBankCardChangeSuccessController.m; sourceTree = "<group>"; };
+		BDBBADA924EC284E00B523BB /* WRBankCardChangeFailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRBankCardChangeFailController.h; sourceTree = "<group>"; };
+		BDBBADAA24EC284E00B523BB /* WRBankCardChangeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRBankCardChangeController.m; sourceTree = "<group>"; };
+		BDBBADAB24EC284E00B523BB /* WRBankCardChangeSuccessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRBankCardChangeSuccessController.h; sourceTree = "<group>"; };
+		BDBBADAC24EC284E00B523BB /* WRBankCardNewNumberController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRBankCardNewNumberController.m; sourceTree = "<group>"; };
+		BDBBADAD24EC284E00B523BB /* WRBankCardChangeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRBankCardChangeController.h; sourceTree = "<group>"; };
+		BDBBADAE24EC284E00B523BB /* WRBankCardChangeFailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRBankCardChangeFailController.m; sourceTree = "<group>"; };
+		BDBBADB224EC284E00B523BB /* WRUntieBankCardSuccessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRUntieBankCardSuccessController.h; sourceTree = "<group>"; };
+		BDBBADB324EC284E00B523BB /* WRUntieBankCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRUntieBankCardViewController.m; sourceTree = "<group>"; };
+		BDBBADB424EC284E00B523BB /* WRUntieBankCardSuccessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRUntieBankCardSuccessController.m; sourceTree = "<group>"; };
+		BDBBADB524EC284E00B523BB /* WRUntieBankCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRUntieBankCardViewController.h; sourceTree = "<group>"; };
+		BDBBADB724EC284E00B523BB /* WRBankCardManagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRBankCardManagerController.m; sourceTree = "<group>"; };
+		BDBBADB824EC284E00B523BB /* WRBankCardManagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRBankCardManagerController.h; sourceTree = "<group>"; };
+		BDBBADBA24EC284E00B523BB /* WRBankCardManagerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRBankCardManagerCell.m; sourceTree = "<group>"; };
+		BDBBADBB24EC284E00B523BB /* WRBankCardManagerHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRBankCardManagerHeadView.h; sourceTree = "<group>"; };
+		BDBBADBC24EC284E00B523BB /* WRBankCardManagerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRBankCardManagerCell.h; sourceTree = "<group>"; };
+		BDBBADBD24EC284E00B523BB /* WRBankCardManagerHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRBankCardManagerHeadView.m; sourceTree = "<group>"; };
+		BDBBADC024EC284E00B523BB /* WalletViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalletViewController.h; sourceTree = "<group>"; };
+		BDBBADC124EC284E00B523BB /* WalletViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalletViewController.m; sourceTree = "<group>"; };
+		BDBBADC324EC284E00B523BB /* WalletRowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalletRowModel.h; sourceTree = "<group>"; };
+		BDBBADC424EC284E00B523BB /* WalletSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalletSectionModel.m; sourceTree = "<group>"; };
+		BDBBADC524EC284E00B523BB /* WalletRowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalletRowModel.m; sourceTree = "<group>"; };
+		BDBBADC624EC284E00B523BB /* WalletSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalletSectionModel.h; sourceTree = "<group>"; };
+		BDBBADC824EC284E00B523BB /* NormalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalTableViewCell.h; sourceTree = "<group>"; };
+		BDBBADC924EC284E00B523BB /* ManagerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagerCollectionViewCell.m; sourceTree = "<group>"; };
+		BDBBADCA24EC284E00B523BB /* WalletHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalletHeaderView.m; sourceTree = "<group>"; };
+		BDBBADCB24EC284E00B523BB /* WalletBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalletBottomView.h; sourceTree = "<group>"; };
+		BDBBADCC24EC284E00B523BB /* FinancialTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinancialTableViewCell.h; sourceTree = "<group>"; };
+		BDBBADCD24EC284E00B523BB /* ManagerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagerTableViewCell.m; sourceTree = "<group>"; };
+		BDBBADCE24EC284E00B523BB /* WalletTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalletTopView.m; sourceTree = "<group>"; };
+		BDBBADCF24EC284E00B523BB /* WalletHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalletHeaderView.h; sourceTree = "<group>"; };
+		BDBBADD024EC284E00B523BB /* ManagerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagerCollectionViewCell.h; sourceTree = "<group>"; };
+		BDBBADD124EC284E00B523BB /* NormalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalTableViewCell.m; sourceTree = "<group>"; };
+		BDBBADD224EC284E00B523BB /* FinancialTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinancialTableViewCell.m; sourceTree = "<group>"; };
+		BDBBADD324EC284E00B523BB /* WalletBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalletBottomView.m; sourceTree = "<group>"; };
+		BDBBADD424EC284E00B523BB /* ManagerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagerTableViewCell.h; sourceTree = "<group>"; };
+		BDBBADD524EC284E00B523BB /* WalletTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalletTopView.h; sourceTree = "<group>"; };
+		BDBBADD824EC284E00B523BB /* WRWithdrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRWithdrawViewController.h; sourceTree = "<group>"; };
+		BDBBADD924EC284E00B523BB /* WRWithdrawPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRWithdrawPasswordViewController.h; sourceTree = "<group>"; };
+		BDBBADDA24EC284E00B523BB /* WRWithdrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRWithdrawViewController.m; sourceTree = "<group>"; };
+		BDBBADDB24EC284E00B523BB /* WRWithdrawPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRWithdrawPasswordViewController.m; sourceTree = "<group>"; };
+		BDBBADDD24EC284E00B523BB /* WRWithdrawNormalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRWithdrawNormalCell.h; sourceTree = "<group>"; };
+		BDBBADDE24EC284E00B523BB /* WRWithdrawInputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRWithdrawInputCell.m; sourceTree = "<group>"; };
+		BDBBADDF24EC284E00B523BB /* WRWithdrawInputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRWithdrawInputCell.h; sourceTree = "<group>"; };
+		BDBBADE024EC284E00B523BB /* WRWithdrawNormalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRWithdrawNormalCell.m; sourceTree = "<group>"; };
+		BDBBADE324EC284E00B523BB /* OpenProtocolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenProtocolViewController.m; sourceTree = "<group>"; };
+		BDBBADE424EC284E00B523BB /* OpenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenViewController.h; sourceTree = "<group>"; };
+		BDBBADE524EC284E00B523BB /* WROpenSuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WROpenSuccessViewController.h; sourceTree = "<group>"; };
+		BDBBADE624EC284E00B523BB /* OpenProtocolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenProtocolViewController.h; sourceTree = "<group>"; };
+		BDBBADE724EC284E00B523BB /* WROpenSuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WROpenSuccessViewController.m; sourceTree = "<group>"; };
+		BDBBADE824EC284E00B523BB /* OpenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenViewController.m; sourceTree = "<group>"; };
+		BDBBADEA24EC284E00B523BB /* OpenInputModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenInputModel.h; sourceTree = "<group>"; };
+		BDBBADEB24EC284E00B523BB /* OpenInputModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenInputModel.m; sourceTree = "<group>"; };
+		BDBBADED24EC284E00B523BB /* OpenInputTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenInputTableViewCell.h; sourceTree = "<group>"; };
+		BDBBADEE24EC284E00B523BB /* OpenSwitchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenSwitchTableViewCell.m; sourceTree = "<group>"; };
+		BDBBADEF24EC284E00B523BB /* OpenInputTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenInputTableViewCell.m; sourceTree = "<group>"; };
+		BDBBADF024EC284E00B523BB /* OpenSwitchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenSwitchTableViewCell.h; sourceTree = "<group>"; };
+		BDBBADF324EC284E00B523BB /* BaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWebViewController.m; sourceTree = "<group>"; };
+		BDBBADF424EC284E00B523BB /* BaseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavViewController.m; sourceTree = "<group>"; };
+		BDBBADF524EC284E00B523BB /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		BDBBADF624EC284E00B523BB /* BaseNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavViewController.h; sourceTree = "<group>"; };
+		BDBBADF724EC284E00B523BB /* BaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWebViewController.h; sourceTree = "<group>"; };
+		BDBBADF824EC284E00B523BB /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		BDBBAE7324EC2A9600B523BB /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resources.bundle; sourceTree = "<group>"; };
+		BDBBAE7524EC2F1900B523BB /* WRPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WRPrefixHeader.pch; sourceTree = "<group>"; };
+		BDBBAE7924EC336900B523BB /* WRWalletManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WRWalletManager.h; sourceTree = "<group>"; };
+		BDBBAE7A24EC336900B523BB /* WRWalletManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WRWalletManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDBBAD4924EC271900B523BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630914BC4FA43D2974C12918 /* Pods_WRWallet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6081AF11878CE3BA9898FD62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				719D78F86B672872839DD325 /* Pods_WRWallet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2AC695AC7A2F1A375F3BD95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BF87F6D6C67D80520479081 /* Pods-WRWallet.debug.xcconfig */,
+				6C87FF9E8F55368D964D2D64 /* Pods-WRWallet.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BDBBAD4224EC271900B523BB = {
+			isa = PBXGroup;
+			children = (
+				BDBBAD4E24EC271900B523BB /* WRWallet */,
+				BDBBAD4D24EC271900B523BB /* Products */,
+				B2AC695AC7A2F1A375F3BD95 /* Pods */,
+				6081AF11878CE3BA9898FD62 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BDBBAD4D24EC271900B523BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBAD4C24EC271900B523BB /* WRWallet.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDBBAD4E24EC271900B523BB /* WRWallet */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBADF124EC284E00B523BB /* Base */,
+				BDBBAD5724EC284D00B523BB /* General */,
+				BDBBAD8424EC284E00B523BB /* Main */,
+				BDBBAE7924EC336900B523BB /* WRWalletManager.h */,
+				BDBBAE7A24EC336900B523BB /* WRWalletManager.m */,
+				BDBBAD5024EC271900B523BB /* Info.plist */,
+				BDBBAE7324EC2A9600B523BB /* Resources.bundle */,
+			);
+			path = WRWallet;
+			sourceTree = "<group>";
+		};
+		BDBBAD5724EC284D00B523BB /* General */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBAD5824EC284D00B523BB /* RefreshManager */,
+				BDBBAD5F24EC284D00B523BB /* Category */,
+				BDBBAD6A24EC284D00B523BB /* phoneInfo */,
+				BDBBAD7424EC284D00B523BB /* GeneralTool.m */,
+				BDBBAD7524EC284D00B523BB /* ViewCreate */,
+				BDBBAD7824EC284D00B523BB /* Macro */,
+				BDBBAD7D24EC284E00B523BB /* HUDProgress */,
+				BDBBAD8324EC284E00B523BB /* GeneralTool.h */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		BDBBAD5824EC284D00B523BB /* RefreshManager */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBAD5924EC284D00B523BB /* footer */,
+				BDBBAD5C24EC284D00B523BB /* header */,
+			);
+			path = RefreshManager;
+			sourceTree = "<group>";
+		};
+		BDBBAD5924EC284D00B523BB /* footer */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBAD5A24EC284D00B523BB /* RefreshNormalFooter.h */,
+				BDBBAD5B24EC284D00B523BB /* RefreshNormalFooter.m */,
+			);
+			path = footer;
+			sourceTree = "<group>";
+		};
+		BDBBAD5C24EC284D00B523BB /* header */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBAD5D24EC284D00B523BB /* RefreshNormalHeader.h */,
+				BDBBAD5E24EC284D00B523BB /* RefreshNormalHeader.m */,
+			);
+			path = header;
+			sourceTree = "<group>";
+		};
+		BDBBAD5F24EC284D00B523BB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBAD6024EC284D00B523BB /* NSString+Hash.m */,
+				BDBBAD6124EC284D00B523BB /* UIColor+GeneralColor.m */,
+				BDBBAD6224EC284D00B523BB /* UIView+SetSize.h */,
+				BDBBAD6324EC284D00B523BB /* NSDate+GeneralDate.m */,
+				BDBBAD6424EC284D00B523BB /* UIImage+GeneralImage.m */,
+				BDBBAD6524EC284D00B523BB /* UIColor+GeneralColor.h */,
+				BDBBAD6624EC284D00B523BB /* NSString+Hash.h */,
+				BDBBAD6724EC284D00B523BB /* UIView+SetSize.m */,
+				BDBBAD6824EC284D00B523BB /* NSDate+GeneralDate.h */,
+				BDBBAD6924EC284D00B523BB /* UIImage+GeneralImage.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		BDBBAD6A24EC284D00B523BB /* phoneInfo */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBAD6B24EC284D00B523BB /* DeviceDataLibrery.h */,
+				BDBBAD6C24EC284D00B523BB /* PhoneInfo.h */,
+				BDBBAD6D24EC284D00B523BB /* PhoneInfo.m */,
+				BDBBAD6E24EC284D00B523BB /* DeviceDataLibrery.m */,
+				BDBBAD6F24EC284D00B523BB /* UUID */,
+			);
+			path = phoneInfo;
+			sourceTree = "<group>";
+		};
+		BDBBAD6F24EC284D00B523BB /* UUID */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBAD7024EC284D00B523BB /* GetUUID.m */,
+				BDBBAD7124EC284D00B523BB /* SSKeychain.h */,
+				BDBBAD7224EC284D00B523BB /* GetUUID.h */,
+				BDBBAD7324EC284D00B523BB /* SSKeychain.m */,
+			);
+			path = UUID;
+			sourceTree = "<group>";
+		};
+		BDBBAD7524EC284D00B523BB /* ViewCreate */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBAD7624EC284D00B523BB /* ViewCreate.m */,
+				BDBBAD7724EC284D00B523BB /* ViewCreate.h */,
+			);
+			path = ViewCreate;
+			sourceTree = "<group>";
+		};
+		BDBBAD7824EC284D00B523BB /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBAD7924EC284E00B523BB /* GeneralColor.h */,
+				BDBBAD7A24EC284E00B523BB /* GeneralMacro.h */,
+				BDBBAD7B24EC284E00B523BB /* GeneralFont.h */,
+				BDBBAE7524EC2F1900B523BB /* WRPrefixHeader.pch */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		BDBBAD7D24EC284E00B523BB /* HUDProgress */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBAD7E24EC284E00B523BB /* NetReachability */,
+				BDBBAD8124EC284E00B523BB /* HUDManager.h */,
+				BDBBAD8224EC284E00B523BB /* HUDManager.m */,
+			);
+			path = HUDProgress;
+			sourceTree = "<group>";
+		};
+		BDBBAD7E24EC284E00B523BB /* NetReachability */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBAD7F24EC284E00B523BB /* Reachability.m */,
+				BDBBAD8024EC284E00B523BB /* Reachability.h */,
+			);
+			path = NetReachability;
+			sourceTree = "<group>";
+		};
+		BDBBAD8424EC284E00B523BB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBAD8524EC284E00B523BB /* Alert */,
+				BDBBAD8A24EC284E00B523BB /* accountManager */,
+				BDBBAD9924EC284E00B523BB /* recharge */,
+				BDBBADA424EC284E00B523BB /* bankCardManager */,
+				BDBBADBE24EC284E00B523BB /* wallet */,
+				BDBBADD624EC284E00B523BB /* withdraw */,
+				BDBBADE124EC284E00B523BB /* open */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BDBBAD8524EC284E00B523BB /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBAD8624EC284E00B523BB /* WRPayPasswordAlertView.m */,
+				BDBBAD8724EC284E00B523BB /* WRPayAlertView.m */,
+				BDBBAD8824EC284E00B523BB /* WRPayPasswordAlertView.h */,
+				BDBBAD8924EC284E00B523BB /* WRPayAlertView.h */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		BDBBAD8A24EC284E00B523BB /* accountManager */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBAD8B24EC284E00B523BB /* Controller */,
+				BDBBAD9024EC284E00B523BB /* View */,
+			);
+			path = accountManager;
+			sourceTree = "<group>";
+		};
+		BDBBAD8B24EC284E00B523BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBAD8C24EC284E00B523BB /* WRElectronicAccountController.h */,
+				BDBBAD8D24EC284E00B523BB /* WRAccountManagerController.h */,
+				BDBBAD8E24EC284E00B523BB /* WRElectronicAccountController.m */,
+				BDBBAD8F24EC284E00B523BB /* WRAccountManagerController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BDBBAD9024EC284E00B523BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBAD9124EC284E00B523BB /* WRElectronicAccountView.h */,
+				BDBBAD9224EC284E00B523BB /* WRAccountManagerCell.h */,
+				BDBBAD9324EC284E00B523BB /* WRElectronicAccountCell.h */,
+				BDBBAD9424EC284E00B523BB /* WRElectronicAccountHeadView.m */,
+				BDBBAD9524EC284E00B523BB /* WRAccountManagerCell.m */,
+				BDBBAD9624EC284E00B523BB /* WRElectronicAccountView.m */,
+				BDBBAD9724EC284E00B523BB /* WRElectronicAccountCell.m */,
+				BDBBAD9824EC284E00B523BB /* WRElectronicAccountHeadView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BDBBAD9924EC284E00B523BB /* recharge */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBAD9A24EC284E00B523BB /* Controller */,
+				BDBBAD9D24EC284E00B523BB /* View */,
+			);
+			path = recharge;
+			sourceTree = "<group>";
+		};
+		BDBBAD9A24EC284E00B523BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBAD9B24EC284E00B523BB /* WRRechargeViewController.h */,
+				BDBBAD9C24EC284E00B523BB /* WRRechargeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BDBBAD9D24EC284E00B523BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBAD9E24EC284E00B523BB /* WRRechargeInputCell.m */,
+				BDBBAD9F24EC284E00B523BB /* WRRechargeNormalCell.m */,
+				BDBBADA024EC284E00B523BB /* WRRechargeSuccessView.h */,
+				BDBBADA124EC284E00B523BB /* WRRechargeNormalCell.h */,
+				BDBBADA224EC284E00B523BB /* WRRechargeInputCell.h */,
+				BDBBADA324EC284E00B523BB /* WRRechargeSuccessView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BDBBADA424EC284E00B523BB /* bankCardManager */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBADA524EC284E00B523BB /* change */,
+				BDBBADB024EC284E00B523BB /* untie */,
+				BDBBADB624EC284E00B523BB /* Controller */,
+				BDBBADB924EC284E00B523BB /* View */,
+			);
+			path = bankCardManager;
+			sourceTree = "<group>";
+		};
+		BDBBADA524EC284E00B523BB /* change */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBADA624EC284E00B523BB /* Controller */,
+				BDBBADAF24EC284E00B523BB /* View */,
+			);
+			path = change;
+			sourceTree = "<group>";
+		};
+		BDBBADA624EC284E00B523BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBADA724EC284E00B523BB /* WRBankCardNewNumberController.h */,
+				BDBBADA824EC284E00B523BB /* WRBankCardChangeSuccessController.m */,
+				BDBBADA924EC284E00B523BB /* WRBankCardChangeFailController.h */,
+				BDBBADAA24EC284E00B523BB /* WRBankCardChangeController.m */,
+				BDBBADAB24EC284E00B523BB /* WRBankCardChangeSuccessController.h */,
+				BDBBADAC24EC284E00B523BB /* WRBankCardNewNumberController.m */,
+				BDBBADAD24EC284E00B523BB /* WRBankCardChangeController.h */,
+				BDBBADAE24EC284E00B523BB /* WRBankCardChangeFailController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BDBBADAF24EC284E00B523BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BDBBADB024EC284E00B523BB /* untie */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBADB124EC284E00B523BB /* Controller */,
+			);
+			path = untie;
+			sourceTree = "<group>";
+		};
+		BDBBADB124EC284E00B523BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBADB224EC284E00B523BB /* WRUntieBankCardSuccessController.h */,
+				BDBBADB324EC284E00B523BB /* WRUntieBankCardViewController.m */,
+				BDBBADB424EC284E00B523BB /* WRUntieBankCardSuccessController.m */,
+				BDBBADB524EC284E00B523BB /* WRUntieBankCardViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BDBBADB624EC284E00B523BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBADB724EC284E00B523BB /* WRBankCardManagerController.m */,
+				BDBBADB824EC284E00B523BB /* WRBankCardManagerController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BDBBADB924EC284E00B523BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBADBA24EC284E00B523BB /* WRBankCardManagerCell.m */,
+				BDBBADBB24EC284E00B523BB /* WRBankCardManagerHeadView.h */,
+				BDBBADBC24EC284E00B523BB /* WRBankCardManagerCell.h */,
+				BDBBADBD24EC284E00B523BB /* WRBankCardManagerHeadView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BDBBADBE24EC284E00B523BB /* wallet */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBADBF24EC284E00B523BB /* Controller */,
+				BDBBADC224EC284E00B523BB /* Model */,
+				BDBBADC724EC284E00B523BB /* View */,
+			);
+			path = wallet;
+			sourceTree = "<group>";
+		};
+		BDBBADBF24EC284E00B523BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBADC024EC284E00B523BB /* WalletViewController.h */,
+				BDBBADC124EC284E00B523BB /* WalletViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BDBBADC224EC284E00B523BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBADC324EC284E00B523BB /* WalletRowModel.h */,
+				BDBBADC424EC284E00B523BB /* WalletSectionModel.m */,
+				BDBBADC524EC284E00B523BB /* WalletRowModel.m */,
+				BDBBADC624EC284E00B523BB /* WalletSectionModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BDBBADC724EC284E00B523BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBADC824EC284E00B523BB /* NormalTableViewCell.h */,
+				BDBBADC924EC284E00B523BB /* ManagerCollectionViewCell.m */,
+				BDBBADCA24EC284E00B523BB /* WalletHeaderView.m */,
+				BDBBADCB24EC284E00B523BB /* WalletBottomView.h */,
+				BDBBADCC24EC284E00B523BB /* FinancialTableViewCell.h */,
+				BDBBADCD24EC284E00B523BB /* ManagerTableViewCell.m */,
+				BDBBADCE24EC284E00B523BB /* WalletTopView.m */,
+				BDBBADCF24EC284E00B523BB /* WalletHeaderView.h */,
+				BDBBADD024EC284E00B523BB /* ManagerCollectionViewCell.h */,
+				BDBBADD124EC284E00B523BB /* NormalTableViewCell.m */,
+				BDBBADD224EC284E00B523BB /* FinancialTableViewCell.m */,
+				BDBBADD324EC284E00B523BB /* WalletBottomView.m */,
+				BDBBADD424EC284E00B523BB /* ManagerTableViewCell.h */,
+				BDBBADD524EC284E00B523BB /* WalletTopView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BDBBADD624EC284E00B523BB /* withdraw */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBADD724EC284E00B523BB /* Controller */,
+				BDBBADDC24EC284E00B523BB /* View */,
+			);
+			path = withdraw;
+			sourceTree = "<group>";
+		};
+		BDBBADD724EC284E00B523BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBADD824EC284E00B523BB /* WRWithdrawViewController.h */,
+				BDBBADD924EC284E00B523BB /* WRWithdrawPasswordViewController.h */,
+				BDBBADDA24EC284E00B523BB /* WRWithdrawViewController.m */,
+				BDBBADDB24EC284E00B523BB /* WRWithdrawPasswordViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BDBBADDC24EC284E00B523BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBADDD24EC284E00B523BB /* WRWithdrawNormalCell.h */,
+				BDBBADDE24EC284E00B523BB /* WRWithdrawInputCell.m */,
+				BDBBADDF24EC284E00B523BB /* WRWithdrawInputCell.h */,
+				BDBBADE024EC284E00B523BB /* WRWithdrawNormalCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BDBBADE124EC284E00B523BB /* open */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBADE224EC284E00B523BB /* Controller */,
+				BDBBADE924EC284E00B523BB /* Model */,
+				BDBBADEC24EC284E00B523BB /* View */,
+			);
+			path = open;
+			sourceTree = "<group>";
+		};
+		BDBBADE224EC284E00B523BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBADE324EC284E00B523BB /* OpenProtocolViewController.m */,
+				BDBBADE424EC284E00B523BB /* OpenViewController.h */,
+				BDBBADE524EC284E00B523BB /* WROpenSuccessViewController.h */,
+				BDBBADE624EC284E00B523BB /* OpenProtocolViewController.h */,
+				BDBBADE724EC284E00B523BB /* WROpenSuccessViewController.m */,
+				BDBBADE824EC284E00B523BB /* OpenViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BDBBADE924EC284E00B523BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBADEA24EC284E00B523BB /* OpenInputModel.h */,
+				BDBBADEB24EC284E00B523BB /* OpenInputModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BDBBADEC24EC284E00B523BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBADED24EC284E00B523BB /* OpenInputTableViewCell.h */,
+				BDBBADEE24EC284E00B523BB /* OpenSwitchTableViewCell.m */,
+				BDBBADEF24EC284E00B523BB /* OpenInputTableViewCell.m */,
+				BDBBADF024EC284E00B523BB /* OpenSwitchTableViewCell.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BDBBADF124EC284E00B523BB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBADF224EC284E00B523BB /* Controller */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BDBBADF224EC284E00B523BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBADF324EC284E00B523BB /* BaseWebViewController.m */,
+				BDBBADF424EC284E00B523BB /* BaseNavViewController.m */,
+				BDBBADF524EC284E00B523BB /* BaseViewController.m */,
+				BDBBADF624EC284E00B523BB /* BaseNavViewController.h */,
+				BDBBADF724EC284E00B523BB /* BaseWebViewController.h */,
+				BDBBADF824EC284E00B523BB /* BaseViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BDBBAD4724EC271900B523BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBBAE0224EC284E00B523BB /* UIColor+GeneralColor.h in Headers */,
+				BDBBAE6324EC284F00B523BB /* WROpenSuccessViewController.h in Headers */,
+				BDBBAE2324EC284E00B523BB /* WRElectronicAccountView.h in Headers */,
+				BDBBAE4224EC284E00B523BB /* WRBankCardManagerHeadView.h in Headers */,
+				BDBBAE4024EC284E00B523BB /* WRBankCardManagerController.h in Headers */,
+				BDBBAE3724EC284E00B523BB /* WRBankCardChangeSuccessController.h in Headers */,
+				BDBBAE3924EC284E00B523BB /* WRBankCardChangeController.h in Headers */,
+				BDBBAE6424EC284F00B523BB /* OpenProtocolViewController.h in Headers */,
+				BDBBAE5924EC284F00B523BB /* WRWithdrawViewController.h in Headers */,
+				BDBBAE5A24EC284F00B523BB /* WRWithdrawPasswordViewController.h in Headers */,
+				BDBBAE6224EC284F00B523BB /* OpenViewController.h in Headers */,
+				BDBBAE2B24EC284E00B523BB /* WRRechargeViewController.h in Headers */,
+				BDBBAE3524EC284E00B523BB /* WRBankCardChangeFailController.h in Headers */,
+				BDBBAE4524EC284E00B523BB /* WalletViewController.h in Headers */,
+				BDBBAE3E24EC284E00B523BB /* WRUntieBankCardViewController.h in Headers */,
+				BDBBAE3324EC284E00B523BB /* WRBankCardNewNumberController.h in Headers */,
+				BDBBAE2024EC284E00B523BB /* WRAccountManagerController.h in Headers */,
+				BDBBAE3B24EC284E00B523BB /* WRUntieBankCardSuccessController.h in Headers */,
+				BDBBAE2A24EC284E00B523BB /* WRElectronicAccountHeadView.h in Headers */,
+				BDBBAE7B24EC336900B523BB /* WRWalletManager.h in Headers */,
+				BDBBAE1F24EC284E00B523BB /* WRElectronicAccountController.h in Headers */,
+				BDBBAE4A24EC284E00B523BB /* WalletSectionModel.h in Headers */,
+				BDBBAE1D24EC284E00B523BB /* WRPayPasswordAlertView.h in Headers */,
+				BDBBAE2F24EC284E00B523BB /* WRRechargeSuccessView.h in Headers */,
+				BDBBAE0624EC284E00B523BB /* UIImage+GeneralImage.h in Headers */,
+				BDBBAE7124EC284F00B523BB /* BaseWebViewController.h in Headers */,
+				BDBBAE4B24EC284F00B523BB /* NormalTableViewCell.h in Headers */,
+				BDBBAE2424EC284E00B523BB /* WRAccountManagerCell.h in Headers */,
+				BDBBAE0D24EC284E00B523BB /* GetUUID.h in Headers */,
+				BDBBAE3124EC284E00B523BB /* WRRechargeInputCell.h in Headers */,
+				BDBBADFB24EC284E00B523BB /* RefreshNormalHeader.h in Headers */,
+				BDBBAE6724EC284F00B523BB /* OpenInputModel.h in Headers */,
+				BDBBAE3024EC284E00B523BB /* WRRechargeNormalCell.h in Headers */,
+				BDBBADFF24EC284E00B523BB /* UIView+SetSize.h in Headers */,
+				BDBBADF924EC284E00B523BB /* RefreshNormalFooter.h in Headers */,
+				BDBBAE0C24EC284E00B523BB /* SSKeychain.h in Headers */,
+				BDBBAE0324EC284E00B523BB /* NSString+Hash.h in Headers */,
+				BDBBAE4724EC284E00B523BB /* WalletRowModel.h in Headers */,
+				BDBBAE1424EC284E00B523BB /* GeneralFont.h in Headers */,
+				BDBBAE5724EC284F00B523BB /* ManagerTableViewCell.h in Headers */,
+				BDBBAE1824EC284E00B523BB /* HUDManager.h in Headers */,
+				BDBBAE5F24EC284F00B523BB /* WRWithdrawInputCell.h in Headers */,
+				BDBBAE5824EC284F00B523BB /* WalletTopView.h in Headers */,
+				BDBBAE7224EC284F00B523BB /* BaseViewController.h in Headers */,
+				BDBBAE1724EC284E00B523BB /* Reachability.h in Headers */,
+				BDBBAE4F24EC284F00B523BB /* FinancialTableViewCell.h in Headers */,
+				BDBBAE5324EC284F00B523BB /* ManagerCollectionViewCell.h in Headers */,
+				BDBBAE1E24EC284E00B523BB /* WRPayAlertView.h in Headers */,
+				BDBBAE5D24EC284F00B523BB /* WRWithdrawNormalCell.h in Headers */,
+				BDBBAE4324EC284E00B523BB /* WRBankCardManagerCell.h in Headers */,
+				BDBBAE0824EC284E00B523BB /* PhoneInfo.h in Headers */,
+				BDBBAE5224EC284F00B523BB /* WalletHeaderView.h in Headers */,
+				BDBBAE1324EC284E00B523BB /* GeneralMacro.h in Headers */,
+				BDBBAE1124EC284E00B523BB /* ViewCreate.h in Headers */,
+				BDBBAE6924EC284F00B523BB /* OpenInputTableViewCell.h in Headers */,
+				BDBBAE1224EC284E00B523BB /* GeneralColor.h in Headers */,
+				BDBBAE7624EC2F1900B523BB /* WRPrefixHeader.pch in Headers */,
+				BDBBAE4E24EC284F00B523BB /* WalletBottomView.h in Headers */,
+				BDBBAE7024EC284F00B523BB /* BaseNavViewController.h in Headers */,
+				BDBBAE0724EC284E00B523BB /* DeviceDataLibrery.h in Headers */,
+				BDBBAE0524EC284E00B523BB /* NSDate+GeneralDate.h in Headers */,
+				BDBBAE1A24EC284E00B523BB /* GeneralTool.h in Headers */,
+				BDBBAE6C24EC284F00B523BB /* OpenSwitchTableViewCell.h in Headers */,
+				BDBBAE2524EC284E00B523BB /* WRElectronicAccountCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BDBBAD4B24EC271900B523BB /* WRWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBBAD5424EC271900B523BB /* Build configuration list for PBXNativeTarget "WRWallet" */;
+			buildPhases = (
+				968D233F29CEB3D18C2E2869 /* [CP] Check Pods Manifest.lock */,
+				BDBBAD4724EC271900B523BB /* Headers */,
+				BDBBAD4824EC271900B523BB /* Sources */,
+				BDBBAD4924EC271900B523BB /* Frameworks */,
+				BDBBAD4A24EC271900B523BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WRWallet;
+			productName = WRWallet;
+			productReference = BDBBAD4C24EC271900B523BB /* WRWallet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDBBAD4324EC271900B523BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = mars;
+				TargetAttributes = {
+					BDBBAD4B24EC271900B523BB = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = BDBBAD4624EC271900B523BB /* Build configuration list for PBXProject "WRWallet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDBBAD4224EC271900B523BB;
+			productRefGroup = BDBBAD4D24EC271900B523BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDBBAD4B24EC271900B523BB /* WRWallet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDBBAD4A24EC271900B523BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBBAE7424EC2A9600B523BB /* Resources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		968D233F29CEB3D18C2E2869 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WRWallet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDBBAD4824EC271900B523BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBBAE2E24EC284E00B523BB /* WRRechargeNormalCell.m in Sources */,
+				BDBBAE6024EC284F00B523BB /* WRWithdrawNormalCell.m in Sources */,
+				BDBBAE5B24EC284F00B523BB /* WRWithdrawViewController.m in Sources */,
+				BDBBAE6524EC284F00B523BB /* WROpenSuccessViewController.m in Sources */,
+				BDBBAE2224EC284E00B523BB /* WRAccountManagerController.m in Sources */,
+				BDBBAE2124EC284E00B523BB /* WRElectronicAccountController.m in Sources */,
+				BDBBAE0F24EC284E00B523BB /* GeneralTool.m in Sources */,
+				BDBBAE0024EC284E00B523BB /* NSDate+GeneralDate.m in Sources */,
+				BDBBAE5024EC284F00B523BB /* ManagerTableViewCell.m in Sources */,
+				BDBBADFA24EC284E00B523BB /* RefreshNormalFooter.m in Sources */,
+				BDBBAE4624EC284E00B523BB /* WalletViewController.m in Sources */,
+				BDBBAE6E24EC284F00B523BB /* BaseNavViewController.m in Sources */,
+				BDBBAE3624EC284E00B523BB /* WRBankCardChangeController.m in Sources */,
+				BDBBAE5C24EC284F00B523BB /* WRWithdrawPasswordViewController.m in Sources */,
+				BDBBAE6624EC284F00B523BB /* OpenViewController.m in Sources */,
+				BDBBAE4C24EC284F00B523BB /* ManagerCollectionViewCell.m in Sources */,
+				BDBBAE0124EC284E00B523BB /* UIImage+GeneralImage.m in Sources */,
+				BDBBAE6B24EC284F00B523BB /* OpenInputTableViewCell.m in Sources */,
+				BDBBAE5124EC284F00B523BB /* WalletTopView.m in Sources */,
+				BDBBADFD24EC284E00B523BB /* NSString+Hash.m in Sources */,
+				BDBBAE4424EC284E00B523BB /* WRBankCardManagerHeadView.m in Sources */,
+				BDBBAE2824EC284E00B523BB /* WRElectronicAccountView.m in Sources */,
+				BDBBAE4124EC284E00B523BB /* WRBankCardManagerCell.m in Sources */,
+				BDBBAE6D24EC284F00B523BB /* BaseWebViewController.m in Sources */,
+				BDBBAE3824EC284E00B523BB /* WRBankCardNewNumberController.m in Sources */,
+				BDBBAE2624EC284E00B523BB /* WRElectronicAccountHeadView.m in Sources */,
+				BDBBAE0A24EC284E00B523BB /* DeviceDataLibrery.m in Sources */,
+				BDBBAE4D24EC284F00B523BB /* WalletHeaderView.m in Sources */,
+				BDBBAE5424EC284F00B523BB /* NormalTableViewCell.m in Sources */,
+				BDBBAE0924EC284E00B523BB /* PhoneInfo.m in Sources */,
+				BDBBAE6A24EC284F00B523BB /* OpenSwitchTableViewCell.m in Sources */,
+				BDBBAE6124EC284F00B523BB /* OpenProtocolViewController.m in Sources */,
+				BDBBAE1024EC284E00B523BB /* ViewCreate.m in Sources */,
+				BDBBAE0424EC284E00B523BB /* UIView+SetSize.m in Sources */,
+				BDBBAE6F24EC284F00B523BB /* BaseViewController.m in Sources */,
+				BDBBAE2724EC284E00B523BB /* WRAccountManagerCell.m in Sources */,
+				BDBBAE2D24EC284E00B523BB /* WRRechargeInputCell.m in Sources */,
+				BDBBAE5524EC284F00B523BB /* FinancialTableViewCell.m in Sources */,
+				BDBBAE2C24EC284E00B523BB /* WRRechargeViewController.m in Sources */,
+				BDBBAE3D24EC284E00B523BB /* WRUntieBankCardSuccessController.m in Sources */,
+				BDBBADFE24EC284E00B523BB /* UIColor+GeneralColor.m in Sources */,
+				BDBBAE4924EC284E00B523BB /* WalletRowModel.m in Sources */,
+				BDBBAE1624EC284E00B523BB /* Reachability.m in Sources */,
+				BDBBAE1924EC284E00B523BB /* HUDManager.m in Sources */,
+				BDBBAE1B24EC284E00B523BB /* WRPayPasswordAlertView.m in Sources */,
+				BDBBAE6824EC284F00B523BB /* OpenInputModel.m in Sources */,
+				BDBBAE3224EC284E00B523BB /* WRRechargeSuccessView.m in Sources */,
+				BDBBAE4824EC284E00B523BB /* WalletSectionModel.m in Sources */,
+				BDBBAE1C24EC284E00B523BB /* WRPayAlertView.m in Sources */,
+				BDBBAE0E24EC284E00B523BB /* SSKeychain.m in Sources */,
+				BDBBAE3A24EC284E00B523BB /* WRBankCardChangeFailController.m in Sources */,
+				BDBBAE3F24EC284E00B523BB /* WRBankCardManagerController.m in Sources */,
+				BDBBAE5624EC284F00B523BB /* WalletBottomView.m in Sources */,
+				BDBBAE7C24EC336900B523BB /* WRWalletManager.m in Sources */,
+				BDBBAE3424EC284E00B523BB /* WRBankCardChangeSuccessController.m in Sources */,
+				BDBBADFC24EC284E00B523BB /* RefreshNormalHeader.m in Sources */,
+				BDBBAE3C24EC284E00B523BB /* WRUntieBankCardViewController.m in Sources */,
+				BDBBAE5E24EC284F00B523BB /* WRWithdrawInputCell.m in Sources */,
+				BDBBAE0B24EC284E00B523BB /* GetUUID.m in Sources */,
+				BDBBAE2924EC284E00B523BB /* WRElectronicAccountCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BDBBAD5224EC271900B523BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDBBAD5324EC271900B523BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDBBAD5524EC271900B523BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BF87F6D6C67D80520479081 /* Pods-WRWallet.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9XZBR4L7ND;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WRWallet/General/Macro/WRPrefixHeader.pch";
+				INFOPLIST_FILE = WRWallet/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = "----.WRWallet";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDBBAD5624EC271900B523BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C87FF9E8F55368D964D2D64 /* Pods-WRWallet.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9XZBR4L7ND;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WRWallet/General/Macro/WRPrefixHeader.pch";
+				INFOPLIST_FILE = WRWallet/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = "----.WRWallet";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDBBAD4624EC271900B523BB /* Build configuration list for PBXProject "WRWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBBAD5224EC271900B523BB /* Debug */,
+				BDBBAD5324EC271900B523BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBBAD5424EC271900B523BB /* Build configuration list for PBXNativeTarget "WRWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBBAD5524EC271900B523BB /* Debug */,
+				BDBBAD5624EC271900B523BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDBBAD4324EC271900B523BB /* Project object */;
+}

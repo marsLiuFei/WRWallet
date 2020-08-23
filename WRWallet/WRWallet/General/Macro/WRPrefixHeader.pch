@@ -1,0 +1,131 @@
+//
+//  WRPrefixHeader.pch
+//  WRWallet
+//
+//  Created by 如沐春风 on 2020/8/18.
+//  Copyright © 2020 mars. All rights reserved.
+//
+
+#ifndef WRPrefixHeader_pch
+#define WRPrefixHeader_pch
+#pragma mark - 文件
+
+#import <Masonry/Masonry.h>
+#import <SDWebImage.h>
+#import <IQKeyboardManager/IQKeyboardManager.h>
+#import <MJExtension/MJExtension.h>
+#import <CRBoxInputView/CRBoxInputView.h>
+//#import "Masonry/Masonry/Masonry.h"
+//#import "IQKeyboardManager/IQKeyboardManager/IQKeyboardManager.h"
+//#import "MJRefresh/MJRefresh/MJRefresh.h"
+//#import "MJExtension/MJExtension/MJExtension.h"
+//#import "CRBoxInputView/PodCode/Classes/CRBoxInputView.h"
+//#import "SDWebImage/SDWebImage/Core/SDWebImage.h"
+
+
+#import "UIView+SetSize.h"
+#import "UIImage+GeneralImage.h"
+#import "NSDate+GeneralDate.h"
+#import "UIColor+GeneralColor.h"
+#import "BaseNavViewController.h"
+#import "BaseWebViewController.h"
+
+#import "GeneralFont.h"
+#import "GeneralColor.h"
+#import "RefreshNormalFooter.h"
+#import "RefreshNormalHeader.h"
+
+#import "PhoneInfo.h"
+#import "GeneralTool.h"
+#import "ViewCreate.h"
+#import "GeneralMacro.h"
+#import "HUDManager.h"
+
+
+
+#pragma mark - 定义GGLog
+#ifdef DEBUG // 开发阶段
+#define WALog(...) NSLog(@"文件:%s 函数%s 第%d行 \n %@\n\n",__FILE__,__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__])
+
+#else // 发布阶段
+#define WALog(...)
+#endif
+
+
+
+// 判断是否为iPhone X 系列
+#define IPHONE_X \
+({BOOL isPhoneX = NO;\
+if (@available(iOS 11.0, *)) {\
+isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom > 0.0;\
+}\
+(isPhoneX);})
+
+#define kSafeAreaTopHeight (IPHONE_X ? 88 : 64)
+#define kSafeAreaTabbarHeight (IPHONE_X ? 83 : 49)
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+//TabBar Nav  高度
+#define kStatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
+#define kNavBarHeight 44.0
+#define kTabBarHeight ([[UIApplication sharedApplication] statusBarFrame].size.height>20?83:49)
+#define kTopHeight (kStatusBarHeight + kNavBarHeight)
+#define kStatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
+#define kSafeAreaHeight ([[UIApplication sharedApplication] statusBarFrame].size.height>20?34:0)
+
+//弱引用
+#define kWeakSelf(type) __weak typeof(type) weak##type = type
+//强引用
+#define kStrongSelf(type) __strong typeof(type) type = weak##type
+
+#define kWindow       [UIApplication sharedApplication].keyWindow
+#define kUserDefault  [NSUserDefaults standardUserDefaults]
+
+
+#pragma  mark -  nil
+//空判断相关
+#define isEmptyStr(str) (!str||[str isKindOfClass:[NSNull class]]||[str isEqualToString:@""]) //判断是否空字符串
+#define isEmptyArr(arr) (!arr||((NSArray *)arr).count==0) //判断是否空数组
+#define isNull(str)     (!str||[str isKindOfClass:[NSNull class]])
+
+#pragma mark -- 角度和弧度之间的转换
+#define DegreesToRadian(x)        (M_PI * (x) / 180.0)
+#define RadianToDegrees(radian)   (radian*180.0)/(M_PI)
+#pragma mark -- 获取图片资源
+#define GetImage(imageName) [UIImage imageNamed:[NSString stringWithFormat:@"%@",imageName]]
+
+#pragma mark -- 为空的判断
+//字符串是否为空
+#define StringIsEmpty(str) ([str isKindOfClass:[NSNull class]] || str == nil || [str length] < 1 ? YES : NO )
+//数组是否为空
+#define ArrayIsEmpty(array) (array == nil || [array isKindOfClass:[NSNull class]] || array.count == 0)
+//字典是否为空
+#define DictIsEmpty(dic) (dic == nil || [dic isKindOfClass:[NSNull class]] || dic.allKeys == 0)
+//是否是空对象
+#define ObjectIsEmpty(_object) (_object == nil \
+|| [_object isKindOfClass:[NSNull class]] \
+|| ([_object respondsToSelector:@selector(length)] && [(NSData *)_object length] == 0) \
+|| ([_object respondsToSelector:@selector(count)] && [(NSArray *)_object count] == 0))
+
+#pragma mark --  获取路径
+//获取沙盒Document路径
+#define DocumentPath [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject]
+//获取沙盒temp路径
+#define TempPath NSTemporaryDirectory()
+//获取沙盒Cache路径
+#define CachePath [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject]
+
+
+
+// 消息通知
+#define kRegisterNotify(_name, _selector)                    \
+[[NSNotificationCenter defaultCenter] addObserver:self  \
+selector:_selector name:_name object:nil];
+
+#define kRemoveNofify            \
+[[NSNotificationCenter defaultCenter] removeObserver:self];
+
+#define kSendNotify(_name, _object)  \
+[[NSNotificationCenter defaultCenter] postNotificationName:_name object:_object];
+#endif /* WRPrefixHeader_pch */
