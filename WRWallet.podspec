@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   s.summary      = "项目SDK."
   s.homepage     = "https://github.com/marsLiuFei/WRWallet"
   s.license              = { :type => "MIT", :file => "LICENSE" }
-  s.author             = { "Simple" => "mars_liu_dev@163.com" }
+  s.author             = { "mars_liu_dev" => "mars_liu_dev@163.com" }
   s.source       = { :git => "https://github.com/marsLiuFei/WRWallet.git", :tag => s.version }
   #s.source_files  = "WRWallet/*"
   
