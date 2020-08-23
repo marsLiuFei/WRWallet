@@ -10,14 +10,14 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/marsLiuFei/WRWallet.git", :tag => s.version }
   #s.source_files  = "WRWallet/*"
   
-  s.dependency = 'Masonry'
-  s.dependency = 'MJRefresh'
-  s.dependency = 'MJExtension'
-  s.dependency = 'MBProgressHUD'
-  s.dependency = 'AFNetworking'
-  s.dependency = 'IQKeyboardManager'
-  s.dependency = 'SDWebImage'
-   s.dependency = 'CRBoxInputView', '~> 1.2.1'
+  s.dependency  'Masonry'
+  s.dependency  'MJRefresh'
+  s.dependency  'MJExtension'
+  s.dependency  'MBProgressHUD'
+  s.dependency  'AFNetworking'
+  s.dependency  'IQKeyboardManager'
+  s.dependency  'SDWebImage'
+   s.dependency 'CRBoxInputView', '~> 1.2.1'
   
   s.vendored_frameworks = 'WRWallet.framework'
   s.requires_arc = true
