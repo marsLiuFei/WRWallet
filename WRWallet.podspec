@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author       = { "mars_liu_dev" => "mars_liu_dev@163.com" }
   s.source       = { :git => "https://github.com/marsLiuFei/WRWallet.git", :tag => s.version }
   s.requires_arc = true
-  s.source_files = 'WRWallet/*.h'
+  s.source_files = 'WRWallet/*.*'
   s.dependency  'Masonry'
   s.dependency  'MJRefresh'
   s.dependency  'MJExtension'
