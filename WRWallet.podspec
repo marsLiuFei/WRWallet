@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   s.dependency  'CRBoxInputView', '~> 1.2.1'
 
   s.requires_arc = true
-  s.public_header_files = 'WRWallet/WRWallet/WRWalletManager.h'
+  s.public_header_files = 'WRWallet/Main/WRWalletManager.h'
 end
