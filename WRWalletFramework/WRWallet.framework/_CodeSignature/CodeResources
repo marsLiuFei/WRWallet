@@ -4,137 +4,137 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/OpenProtocolViewController.h</key>
-		<data>
-		vqO3kA158/RSEIbIa3FDh9mIeQM=
-		</data>
-		<key>Headers/OpenViewController.h</key>
-		<data>
-		JEgQOu4m06rZvg2tCm5xHhsEqkw=
-		</data>
-		<key>Headers/WRAccountManagerController.h</key>
-		<data>
-		lH2H2Ddc1i98jn/E8max76FJEzs=
-		</data>
-		<key>Headers/WRBankCardChangeController.h</key>
-		<data>
-		HUuDbB1p5BWYHLxUFyzfZEJ7Xfc=
-		</data>
-		<key>Headers/WRBankCardChangeFailController.h</key>
-		<data>
-		hxv2F2QiEgWBG9U0dzMtw8qXQ1Q=
-		</data>
-		<key>Headers/WRBankCardChangeSuccessController.h</key>
-		<data>
-		64+M+SUvd30ksPxk/eq+cJ1uGQM=
-		</data>
-		<key>Headers/WRBankCardManagerController.h</key>
-		<data>
-		f1JbYjEudKccGuVenBEGwPMtEw8=
-		</data>
-		<key>Headers/WRBankCardManagerHeadView.h</key>
-		<data>
-		PCYe7FpOcrWaSiOH1uPVa7UfJpA=
-		</data>
-		<key>Headers/WRBankCardNewNumberController.h</key>
-		<data>
-		+yt93AopD/ZVNznZETIaK8uG3N0=
-		</data>
-		<key>Headers/WRElectronicAccountController.h</key>
-		<data>
-		cn74jhRN6tcQWJL/lb/x+80ZjMg=
-		</data>
-		<key>Headers/WRElectronicAccountHeadView.h</key>
-		<data>
-		fPKBjnjaTyu70b3gJidyQU8G3sc=
-		</data>
-		<key>Headers/WRElectronicAccountView.h</key>
-		<data>
-		7fXcQlZVbMwMmAyqEj38Y/3jGLc=
-		</data>
-		<key>Headers/WROpenSuccessViewController.h</key>
-		<data>
-		G32w/Ry1ERd7cAB6EPwnldwad30=
-		</data>
-		<key>Headers/WRRechargeViewController.h</key>
-		<data>
-		cAeJq+mX0TnM3CUDxhggVxbHjWw=
-		</data>
-		<key>Headers/WRUntieBankCardSuccessController.h</key>
-		<data>
-		FIiN2AMxAhiEdpLO98IvbTyDZJk=
-		</data>
-		<key>Headers/WRUntieBankCardViewController.h</key>
-		<data>
-		hV3otyZ0xKGpqcildNXjJkX3UAI=
-		</data>
 		<key>Headers/WRWalletManager.h</key>
 		<data>
 		Cd3PCc16abD3Uq6B5dnR1EbE/9U=
 		</data>
-		<key>Headers/WRWithdrawPasswordViewController.h</key>
-		<data>
-		Aah0W/ErLIuhAIjw8Od9G+CP4XM=
-		</data>
-		<key>Headers/WRWithdrawViewController.h</key>
-		<data>
-		ysY5ws6geeEaUR1r0C5z4AzDw54=
-		</data>
-		<key>Headers/WalletViewController.h</key>
-		<data>
-		s25nIokXLE07kqSKSVy67ViVX08=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		N8ko4nxMq7YLdd6Ufk/aD09XB5s=
+		SjGkUT+YD2V2KvAcqiEIRoAVG54=
 		</data>
-		<key>Resources.bundle/DAIKUAN.png</key>
+		<key>Resources.bundle/DAIKUAN@2x.png</key>
 		<data>
 		f2YCvFDN8P8WdiWCTdpUKqPTZEU=
 		</data>
-		<key>Resources.bundle/EWR.png</key>
+		<key>Resources.bundle/DAIKUAN@3x.png</key>
+		<data>
+		T1/8NMc7e5+xgrJYhESM59O7MxM=
+		</data>
+		<key>Resources.bundle/EWR@2x.png</key>
 		<data>
 		s/JQUN3bLJUsIx+oCTHLbNtPnzU=
 		</data>
-		<key>Resources.bundle/GSDF.png</key>
+		<key>Resources.bundle/EWR@3x.png</key>
+		<data>
+		LC3A3oTc0fROfUQ5CZtnE3r68nc=
+		</data>
+		<key>Resources.bundle/GSDF@2x.png</key>
 		<data>
 		irCGvAaHtXdbjChMxyo1D1g02bQ=
 		</data>
-		<key>Resources.bundle/Root.plist</key>
+		<key>Resources.bundle/GSDF@3x.png</key>
 		<data>
-		jOhqEUF1/xyY+fuswiWT+ELC3dI=
+		BWKqnPwxgiXGCH8vyfForCqwHAA=
 		</data>
-		<key>Resources.bundle/SFDG.png</key>
+		<key>Resources.bundle/SFDG@2x.png</key>
 		<data>
 		1xE0BwgLZ1VayYW93Gg25TTXauE=
 		</data>
+		<key>Resources.bundle/SFDG@3x.png</key>
+		<data>
+		p2JgryOqWguI4mFeQsdA6d8AKj0=
+		</data>
 		<key>Resources.bundle/ServiceProtocol.docx</key>
 		<data>
-		F9n5pVJ+bvjlCCfLoU0pBuiB38w=
+		jvBy8aS2i687qABbI/L+idCNEz8=
 		</data>
-		<key>Resources.bundle/account_bg_icon.png</key>
+		<key>Resources.bundle/account_bg_icon@2x.png</key>
 		<data>
 		nDWKbHBb5ZsUUAW5ZC4NwieGLeg=
 		</data>
-		<key>Resources.bundle/bg_icon.png</key>
+		<key>Resources.bundle/account_bg_icon@3x.png</key>
+		<data>
+		TfNlR1imxJSaziWCF16Idj2lDRY=
+		</data>
+		<key>Resources.bundle/bg_icon@2x.png</key>
 		<data>
 		tbnMWXnRhVLp7Z6UCKHd3aZiAG4=
 		</data>
-		<key>Resources.bundle/call_icon.png</key>
+		<key>Resources.bundle/bg_icon@3x.png</key>
+		<data>
+		+qMvLI4JlDgtUvtci/I6NvIWbVI=
+		</data>
+		<key>Resources.bundle/call_icon@2x.png</key>
 		<data>
 		0+fe8R+Xbxv5L6VS5DgjsC0mII4=
 		</data>
-		<key>Resources.bundle/card_icon.png</key>
+		<key>Resources.bundle/call_icon@3x.png</key>
+		<data>
+		P65dbHBLJyHtL+3CfVmzbJ2vS/E=
+		</data>
+		<key>Resources.bundle/card_icon@2x.png</key>
 		<data>
 		HuNP+2l3N9bxuVDHxuq2WCz5wWg=
 		</data>
-		<key>Resources.bundle/day_time_icon.png</key>
+		<key>Resources.bundle/card_icon@3x.png</key>
+		<data>
+		y6sGWnkyK2HeJbvIXEDem327+U0=
+		</data>
+		<key>Resources.bundle/checksalary_return@2x.png</key>
+		<data>
+		XWUVwtl2roSNw5oUj7eKc8V2jWw=
+		</data>
+		<key>Resources.bundle/checksalary_return_black@2x.png</key>
+		<data>
+		MG9dB5V/4EZ+ZqzUPq0P+zrYeSM=
+		</data>
+		<key>Resources.bundle/close_eye@2x.png</key>
+		<data>
+		POPty/Tj4BIx6a0EY6osWEWz6hw=
+		</data>
+		<key>Resources.bundle/closeicon@2x.png</key>
+		<data>
+		97doEdyLXrf2eZ2afPFtFkIr/fk=
+		</data>
+		<key>Resources.bundle/day_time_icon@2x.png</key>
 		<data>
 		+MNB8EQ2XJlbOPGsiWbGjG4lFWw=
 		</data>
-		<key>Resources.bundle/discern_guide_icon.png</key>
+		<key>Resources.bundle/day_time_icon@3x.png</key>
+		<data>
+		fsRz4VB20CaFbS+yzRtmFsh/L+Q=
+		</data>
+		<key>Resources.bundle/discern_guide_icon@2x.png</key>
 		<data>
 		PDBpS0khbscwYpRoakkFrDzCkJU=
+		</data>
+		<key>Resources.bundle/discern_guide_icon@3x.png</key>
+		<data>
+		W0X2dssotSmB0Vjmkf/2nUf4Njg=
+		</data>
+		<key>Resources.bundle/dongzuo1@2x.png</key>
+		<data>
+		YeUMqF/2Rp7D0Zw+Eyd7HU9+djY=
+		</data>
+		<key>Resources.bundle/dongzuo1@3x.png</key>
+		<data>
+		72clXhFnNZ7XhsUk9KUuValJiQs=
+		</data>
+		<key>Resources.bundle/dongzuo2@2x.png</key>
+		<data>
+		IhI+9MKY+7vdBiT+QRwHeHKw0eM=
+		</data>
+		<key>Resources.bundle/dongzuo2@3x.png</key>
+		<data>
+		Ps62uifyukiGcZYMv8w0aefvkA8=
+		</data>
+		<key>Resources.bundle/dongzuo3@2x.png</key>
+		<data>
+		bq1oUDUXr6B+hy+Fh9LyPhd6s9k=
+		</data>
+		<key>Resources.bundle/dongzuo3@3x.png</key>
+		<data>
+		MgIe8cb/xsAvf9a6qoS6Ta0AqnY=
 		</data>
 		<key>Resources.bundle/en.lproj/Root.strings</key>
 		<dict>
@@ -145,273 +145,217 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources.bundle/error_icon.png</key>
+		<key>Resources.bundle/error_icon@2x.png</key>
 		<data>
 		ItL5VxhlKqIx82zcdi/rKIu17vo=
 		</data>
-		<key>Resources.bundle/explanation_icon.png</key>
+		<key>Resources.bundle/error_icon@3x.png</key>
+		<data>
+		jfgtY20gLCgCx/jQIXZ5ddLXAGE=
+		</data>
+		<key>Resources.bundle/explanation_icon@2x.png</key>
 		<data>
 		zTr77D7gotUqAKdI06MJIYVdYV8=
 		</data>
-		<key>Resources.bundle/logo_des.png</key>
+		<key>Resources.bundle/explanation_icon@3x.png</key>
+		<data>
+		bFrZeYrWD8yf+JuUGmdMTTuSAP4=
+		</data>
+		<key>Resources.bundle/icon_cancle_image@2x.png</key>
+		<data>
+		7ae6t0dM9kuAXtE2aQf7Mui3yrM=
+		</data>
+		<key>Resources.bundle/logo_des@2x.png</key>
 		<data>
 		kZVh5Agixoq8pxQMyl3B/qWS1x4=
 		</data>
-		<key>Resources.bundle/logo_icon.png</key>
+		<key>Resources.bundle/logo_des@3x.png</key>
+		<data>
+		kpJnCH8h8yMciy7e7K+K1zER8es=
+		</data>
+		<key>Resources.bundle/logo_icon@2x.png</key>
 		<data>
 		SCiquMn0wuI/6K96ngXP5GpXlVY=
 		</data>
-		<key>Resources.bundle/manage_bg_icon.png</key>
+		<key>Resources.bundle/logo_icon@3x.png</key>
+		<data>
+		wtCnUZdWUrXZJ3QjIOlBYWu49yo=
+		</data>
+		<key>Resources.bundle/manage_bg_icon@2x.png</key>
 		<data>
 		hnscVbsoxVN3Zbiz7O1J+yjBrNo=
 		</data>
-		<key>Resources.bundle/manage_logo_icon.png</key>
+		<key>Resources.bundle/manage_bg_icon@3x.png</key>
+		<data>
+		hRiwKg8tUhz5OHBdAXo1MBQPHsw=
+		</data>
+		<key>Resources.bundle/manage_logo_icon@2x.png</key>
 		<data>
 		odHyoIacOlRqwGCEtYpeJPyCaGw=
 		</data>
-		<key>Resources.bundle/mn.png</key>
+		<key>Resources.bundle/manage_logo_icon@3x.png</key>
+		<data>
+		6Y5emBz0GhMXqxd73PDpyN+uhTs=
+		</data>
+		<key>Resources.bundle/mn@2x.png</key>
 		<data>
 		6Z0IdS80yaJJIpThQlk81f06koU=
 		</data>
-		<key>Resources.bundle/moneryNumber_card_icon.png</key>
+		<key>Resources.bundle/mn@3x.png</key>
+		<data>
+		ov+8x+lLMrom+nZv6uxgoOTuKYk=
+		</data>
+		<key>Resources.bundle/moneryNumber_card_icon@2x.png</key>
 		<data>
 		QRHX9tfViQXrxr4UHC2I1aHVBy8=
 		</data>
-		<key>Resources.bundle/moneryNumber_icon.png</key>
+		<key>Resources.bundle/moneryNumber_card_icon@3x.png</key>
+		<data>
+		2ztyE7Y2/s37YNAJmsmauA8T+a4=
+		</data>
+		<key>Resources.bundle/moneryNumber_icon@2x.png</key>
 		<data>
 		cLbR0ZK17o+j+VI32fs/5sh0A0M=
 		</data>
-		<key>Resources.bundle/month_time_icon.png</key>
+		<key>Resources.bundle/moneryNumber_icon@3x.png</key>
+		<data>
+		jkakJ3AFzb2tGyOorrnVc5zKCOw=
+		</data>
+		<key>Resources.bundle/month_time_icon@2x.png</key>
 		<data>
 		Zz9UJp0tQFx7VDi0+zMPUsUnJQQ=
 		</data>
-		<key>Resources.bundle/pay_icon.png</key>
+		<key>Resources.bundle/month_time_icon@3x.png</key>
+		<data>
+		LvpTbipUh2x5wQ1iEobMe4IDJC4=
+		</data>
+		<key>Resources.bundle/moreIcon@2x.png</key>
+		<data>
+		78EoJstBsVUklEWJkSubsxn/a7o=
+		</data>
+		<key>Resources.bundle/open_eye@2x.png</key>
+		<data>
+		BxGLq8duKladvevbczHu9ZU1LSA=
+		</data>
+		<key>Resources.bundle/pay_icon@2x.png</key>
 		<data>
 		mCSqj91BwZIvZmkcauNmGZ/9pew=
 		</data>
-		<key>Resources.bundle/phone_icon.png</key>
+		<key>Resources.bundle/pay_icon@3x.png</key>
+		<data>
+		CsZ/wDFQNHuIlFWiDxMfdNsSwZY=
+		</data>
+		<key>Resources.bundle/phone_icon@2x.png</key>
 		<data>
 		BUI9OV4zlfHlBi2u+C2aGl1q/ec=
 		</data>
-		<key>Resources.bundle/question_icon.png</key>
+		<key>Resources.bundle/phone_icon@3x.png</key>
+		<data>
+		qwkEdYTA8J+4sePV8EwS4coyXHk=
+		</data>
+		<key>Resources.bundle/question_icon@2x.png</key>
 		<data>
 		bQ+jWoQeccJACJ2oUs0fcgzV7xc=
 		</data>
-		<key>Resources.bundle/re.png</key>
+		<key>Resources.bundle/question_icon@3x.png</key>
+		<data>
+		hnAnBHP0mbSY3aCdsazEcHxzKBc=
+		</data>
+		<key>Resources.bundle/re@2x.png</key>
 		<data>
 		bosfe1xq2MXm45auz7MewJ6xTg8=
 		</data>
-		<key>Resources.bundle/recharge_icon.png</key>
+		<key>Resources.bundle/re@3x.png</key>
+		<data>
+		5HJjZ9US3BW2UI7khVAwFmLy0b8=
+		</data>
+		<key>Resources.bundle/recharge_icon@2x.png</key>
 		<data>
 		/ZNBWE+JU+PZe13bEUXuo6U1USo=
 		</data>
-		<key>Resources.bundle/right_icon.png</key>
+		<key>Resources.bundle/recharge_icon@3x.png</key>
+		<data>
+		q8B2zkWennLU85CCY59lVjc5wSE=
+		</data>
+		<key>Resources.bundle/renlian@2x.png</key>
+		<data>
+		2wUSY+2z8fG8RmAe7sauActGjXw=
+		</data>
+		<key>Resources.bundle/renlian@3x.png</key>
+		<data>
+		Yv7BFFdCXNXk44rM1M5BbN7xGdw=
+		</data>
+		<key>Resources.bundle/right_icon@2x.png</key>
 		<data>
 		z5pIjeVnyuYlgEE+2DOfnAF5h50=
 		</data>
-		<key>Resources.bundle/saveMonery_icon.png</key>
+		<key>Resources.bundle/right_icon@3x.png</key>
+		<data>
+		8gaK5PWEFffsGhdWM483SBhhc4c=
+		</data>
+		<key>Resources.bundle/rili@2x.png</key>
+		<data>
+		B4OUc4Hqd7+sGa2aRg3/P0Ck8S8=
+		</data>
+		<key>Resources.bundle/saveMonery_icon@2x.png</key>
 		<data>
 		zb5r2vYG5aq8vVU0nI7g7SYSoYU=
 		</data>
-		<key>Resources.bundle/success_icon.png</key>
+		<key>Resources.bundle/saveMonery_icon@3x.png</key>
+		<data>
+		jymt5q1WV1SHnD24gNj7uJxc+wY=
+		</data>
+		<key>Resources.bundle/sousuo@2x.png</key>
+		<data>
+		gR4/8unRxovx4TcaUvzhu//UUfI=
+		</data>
+		<key>Resources.bundle/success_icon@2x.png</key>
 		<data>
 		KjBF/0tjb1y/UKOGuA9/CT04hSk=
 		</data>
-		<key>Resources.bundle/treasureMonery_icon.png</key>
+		<key>Resources.bundle/success_icon@3x.png</key>
+		<data>
+		HEedaz6Fb8XPhEJj7wSf2pVD0og=
+		</data>
+		<key>Resources.bundle/treasureMonery_icon@2x.png</key>
 		<data>
 		f2A0U3Y9WjUCoT+PerQbVHxwLKA=
 		</data>
-		<key>Resources.bundle/user_icon.png</key>
+		<key>Resources.bundle/treasureMonery_icon@3x.png</key>
+		<data>
+		HN2FPE4XUoH8yDtB/Q/KbsZJRLg=
+		</data>
+		<key>Resources.bundle/user_icon@2x.png</key>
 		<data>
 		p8qW4H+mqfBRLI4EQN6lTDW/IUc=
 		</data>
-		<key>Resources.bundle/withdraw_icon.png</key>
+		<key>Resources.bundle/user_icon@3x.png</key>
+		<data>
+		JQCy2UXGCTo34gf5Wc+zxzgFFjI=
+		</data>
+		<key>Resources.bundle/withdraw_icon@2x.png</key>
 		<data>
 		WEkDonNUGwQaeRwoqwBWj3HNXfI=
 		</data>
-		<key>Resources.bundle/zanwujiaoyi.png</key>
+		<key>Resources.bundle/withdraw_icon@3x.png</key>
+		<data>
+		4VMf6uKL67R6BBBTwILNW216mxU=
+		</data>
+		<key>Resources.bundle/zanwujiaoyi@2x.png</key>
 		<data>
 		bbZRwZMEm2tO1weD9oTuplPn4xw=
+		</data>
+		<key>Resources.bundle/zanwujiaoyi@3x.png</key>
+		<data>
+		JTtoYarxRY0mn/IXf88Q3HpQ7uA=
+		</data>
+		<key>jiazai.gif</key>
+		<data>
+		Z7o3xck9zNIVC1XqiBn6NWlJkhQ=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/OpenProtocolViewController.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			vqO3kA158/RSEIbIa3FDh9mIeQM=
-			</data>
-			<key>hash2</key>
-			<data>
-			f+Cl7CrLJpvnLAagLN6hHFXm9Nyd9GptTiQJWBu9oUw=
-			</data>
-		</dict>
-		<key>Headers/OpenViewController.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JEgQOu4m06rZvg2tCm5xHhsEqkw=
-			</data>
-			<key>hash2</key>
-			<data>
-			WM5CbOm/Nph7DMf2e2GLSCQdomwVbwDSlX9qJ2WeoHY=
-			</data>
-		</dict>
-		<key>Headers/WRAccountManagerController.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lH2H2Ddc1i98jn/E8max76FJEzs=
-			</data>
-			<key>hash2</key>
-			<data>
-			BBwPgy3QyOvOC9GVr51f8ggEmaYjMiEoYwx1wiVLj4w=
-			</data>
-		</dict>
-		<key>Headers/WRBankCardChangeController.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HUuDbB1p5BWYHLxUFyzfZEJ7Xfc=
-			</data>
-			<key>hash2</key>
-			<data>
-			ghMS78XhB9lgzgI19D4m9I7tTpeBl6BLYlggFxFhtAA=
-			</data>
-		</dict>
-		<key>Headers/WRBankCardChangeFailController.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hxv2F2QiEgWBG9U0dzMtw8qXQ1Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			wZN4A/j03oT2LRNqLkx/RlEuW2sEB+1xgLuXfikArdM=
-			</data>
-		</dict>
-		<key>Headers/WRBankCardChangeSuccessController.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			64+M+SUvd30ksPxk/eq+cJ1uGQM=
-			</data>
-			<key>hash2</key>
-			<data>
-			Xjqac7rHE8DSE/uVj+ebXmdLea68oOJKuuum41zha/Q=
-			</data>
-		</dict>
-		<key>Headers/WRBankCardManagerController.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			f1JbYjEudKccGuVenBEGwPMtEw8=
-			</data>
-			<key>hash2</key>
-			<data>
-			QtxwpFyFvgvQE6BPp32aAWj6ZSbM+lhP8j8ulxl2VKE=
-			</data>
-		</dict>
-		<key>Headers/WRBankCardManagerHeadView.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PCYe7FpOcrWaSiOH1uPVa7UfJpA=
-			</data>
-			<key>hash2</key>
-			<data>
-			397k3NlKrijcAE2YCCDoqFGlTt/xUEjCPRw8IlH9sPs=
-			</data>
-		</dict>
-		<key>Headers/WRBankCardNewNumberController.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+yt93AopD/ZVNznZETIaK8uG3N0=
-			</data>
-			<key>hash2</key>
-			<data>
-			wvYpRDzv164QJ7XfRso7pWDbwHCM7YIQWnFMfJLb+Qo=
-			</data>
-		</dict>
-		<key>Headers/WRElectronicAccountController.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cn74jhRN6tcQWJL/lb/x+80ZjMg=
-			</data>
-			<key>hash2</key>
-			<data>
-			omQH3rB2s1R5sTXp/yDhixbLlRYJ1Mu0SWf8c9Carv8=
-			</data>
-		</dict>
-		<key>Headers/WRElectronicAccountHeadView.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fPKBjnjaTyu70b3gJidyQU8G3sc=
-			</data>
-			<key>hash2</key>
-			<data>
-			E9bAn4CYJurumS5ccVLy8y751jZVBiR2xM8jcRL8N9Y=
-			</data>
-		</dict>
-		<key>Headers/WRElectronicAccountView.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7fXcQlZVbMwMmAyqEj38Y/3jGLc=
-			</data>
-			<key>hash2</key>
-			<data>
-			ZieGbLwf+ofds1ScuDXNDSEfcp9glRhp47vTM1euF10=
-			</data>
-		</dict>
-		<key>Headers/WROpenSuccessViewController.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			G32w/Ry1ERd7cAB6EPwnldwad30=
-			</data>
-			<key>hash2</key>
-			<data>
-			K9rUdEwwpDY/mJUy8i0Ef7pTRmjvWBMnXmUjD0zD9sU=
-			</data>
-		</dict>
-		<key>Headers/WRRechargeViewController.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cAeJq+mX0TnM3CUDxhggVxbHjWw=
-			</data>
-			<key>hash2</key>
-			<data>
-			jVodTso2oj45Co9DaxdDL1EdvLlc1W5hQnY88dc+S+Q=
-			</data>
-		</dict>
-		<key>Headers/WRUntieBankCardSuccessController.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FIiN2AMxAhiEdpLO98IvbTyDZJk=
-			</data>
-			<key>hash2</key>
-			<data>
-			WYULTRKOUfjvx2cEw2kCNono6mbzxOscV/vCX6LnYAA=
-			</data>
-		</dict>
-		<key>Headers/WRUntieBankCardViewController.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hV3otyZ0xKGpqcildNXjJkX3UAI=
-			</data>
-			<key>hash2</key>
-			<data>
-			1cjedVWPSXXzFrdV9ONr6Zz1afscUpXQu3Hmynnt2xk=
-			</data>
-		</dict>
 		<key>Headers/WRWalletManager.h</key>
 		<dict>
 			<key>hash</key>
@@ -423,40 +367,7 @@
 			CiTh/YxYA8U6T9W6FzoNw7AisFTCk9bHdzyiOg6MrDk=
 			</data>
 		</dict>
-		<key>Headers/WRWithdrawPasswordViewController.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Aah0W/ErLIuhAIjw8Od9G+CP4XM=
-			</data>
-			<key>hash2</key>
-			<data>
-			/Vl7J3fRPR5jUXN2AQHPTulLcgcvlm0uGbVcUCvJSxU=
-			</data>
-		</dict>
-		<key>Headers/WRWithdrawViewController.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ysY5ws6geeEaUR1r0C5z4AzDw54=
-			</data>
-			<key>hash2</key>
-			<data>
-			1x7/IkBrqy9AKmMcGuExpgcHs/t27EInwDe79XVBQcU=
-			</data>
-		</dict>
-		<key>Headers/WalletViewController.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			s25nIokXLE07kqSKSVy67ViVX08=
-			</data>
-			<key>hash2</key>
-			<data>
-			xokqiJy1PS1i5GBYxSDrzliB7VfP/MiuLDyN60u8gyg=
-			</data>
-		</dict>
-		<key>Resources.bundle/DAIKUAN.png</key>
+		<key>Resources.bundle/DAIKUAN@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -467,7 +378,18 @@
 			tR1iyPf1XvUqlEfSHLSvUKimEsfSE5GDwNhaKqJ8Xu4=
 			</data>
 		</dict>
-		<key>Resources.bundle/EWR.png</key>
+		<key>Resources.bundle/DAIKUAN@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			T1/8NMc7e5+xgrJYhESM59O7MxM=
+			</data>
+			<key>hash2</key>
+			<data>
+			vQ6//5KRhPSchQdgZCiC8UEmlqg1D2Im8VaTvpSQjss=
+			</data>
+		</dict>
+		<key>Resources.bundle/EWR@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -478,7 +400,18 @@
 			zXjsJ8fgUKA1S2wtpKdrdytySxYUiSBFOQawFnWjsFg=
 			</data>
 		</dict>
-		<key>Resources.bundle/GSDF.png</key>
+		<key>Resources.bundle/EWR@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LC3A3oTc0fROfUQ5CZtnE3r68nc=
+			</data>
+			<key>hash2</key>
+			<data>
+			P7RQ0m4CCWZm/F0dQSP4g53RueUsB1X1BywsRq6OFh4=
+			</data>
+		</dict>
+		<key>Resources.bundle/GSDF@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -489,18 +422,18 @@
 			/ixjbuBssYoU9Wyu2n13QlrDiLDM1Qsq4IvAMY3gwSE=
 			</data>
 		</dict>
-		<key>Resources.bundle/Root.plist</key>
+		<key>Resources.bundle/GSDF@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jOhqEUF1/xyY+fuswiWT+ELC3dI=
+			BWKqnPwxgiXGCH8vyfForCqwHAA=
 			</data>
 			<key>hash2</key>
 			<data>
-			m26DmegPkB5jwUJkVEtLlObYALX8He100Ny0+NNJg/g=
+			i/G9UP0llI4lm/tgyr5WJeynk3Mgr/aqn0UTKepWQbM=
 			</data>
 		</dict>
-		<key>Resources.bundle/SFDG.png</key>
+		<key>Resources.bundle/SFDG@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -511,18 +444,29 @@
 			6jopwiSeqRW8sJfRlwZfMB3NJS9fjZeyd1Fug/rksLc=
 			</data>
 		</dict>
+		<key>Resources.bundle/SFDG@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			p2JgryOqWguI4mFeQsdA6d8AKj0=
+			</data>
+			<key>hash2</key>
+			<data>
+			gRRzqIYqo8j5+oDxzdpX5kI/RwS7T/0YF7jpfAi/0HQ=
+			</data>
+		</dict>
 		<key>Resources.bundle/ServiceProtocol.docx</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			F9n5pVJ+bvjlCCfLoU0pBuiB38w=
+			jvBy8aS2i687qABbI/L+idCNEz8=
 			</data>
 			<key>hash2</key>
 			<data>
-			UT5oVgQ2Xv+1pqWouMGqdZNTpNAs1jYk9KaeKrUR4lA=
+			a0kjAiNUH0oDvClbp1bvcihQgZk/sna5Cwu+ZWZc0jI=
 			</data>
 		</dict>
-		<key>Resources.bundle/account_bg_icon.png</key>
+		<key>Resources.bundle/account_bg_icon@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -533,7 +477,18 @@
 			ilCrNzbmJlR9a3OIwHjfyOuaz91AJr48Xcoa8XjqtkU=
 			</data>
 		</dict>
-		<key>Resources.bundle/bg_icon.png</key>
+		<key>Resources.bundle/account_bg_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TfNlR1imxJSaziWCF16Idj2lDRY=
+			</data>
+			<key>hash2</key>
+			<data>
+			A9XdtAa2Df0V7qEdlsYWkm31MeQibSxTqVwaU3oM8M8=
+			</data>
+		</dict>
+		<key>Resources.bundle/bg_icon@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -544,7 +499,18 @@
 			RMwVthFjzQLBHJk/5vi/56By0M2uRW+h6njhA+y56eo=
 			</data>
 		</dict>
-		<key>Resources.bundle/call_icon.png</key>
+		<key>Resources.bundle/bg_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+qMvLI4JlDgtUvtci/I6NvIWbVI=
+			</data>
+			<key>hash2</key>
+			<data>
+			76tqejsBgDeSESlOtZjjeLXMI8oRFRrNnI37x2LcxH8=
+			</data>
+		</dict>
+		<key>Resources.bundle/call_icon@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -555,7 +521,18 @@
 			QgEq8nHxvz6KxhXOQ6y1OBb+m3m2P694foLFSfj1kCk=
 			</data>
 		</dict>
-		<key>Resources.bundle/card_icon.png</key>
+		<key>Resources.bundle/call_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			P65dbHBLJyHtL+3CfVmzbJ2vS/E=
+			</data>
+			<key>hash2</key>
+			<data>
+			xXu1IdZSBRDbIeVkf9Pxn67FbBbHhowKj0cuEarQhBg=
+			</data>
+		</dict>
+		<key>Resources.bundle/card_icon@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -566,7 +543,62 @@
 			C4R/dC7b2//ztWVc17/QKbbeASwB2S/UGB2DTNJKKyY=
 			</data>
 		</dict>
-		<key>Resources.bundle/day_time_icon.png</key>
+		<key>Resources.bundle/card_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			y6sGWnkyK2HeJbvIXEDem327+U0=
+			</data>
+			<key>hash2</key>
+			<data>
+			P1dZRmup0511UcLYGfRPINBbbkxgEmqtQbZYI/q9kOo=
+			</data>
+		</dict>
+		<key>Resources.bundle/checksalary_return@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XWUVwtl2roSNw5oUj7eKc8V2jWw=
+			</data>
+			<key>hash2</key>
+			<data>
+			QUC+GRbcUGWq+dV64CRa6FrTnIUZcaG3iN73+V3AYfU=
+			</data>
+		</dict>
+		<key>Resources.bundle/checksalary_return_black@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MG9dB5V/4EZ+ZqzUPq0P+zrYeSM=
+			</data>
+			<key>hash2</key>
+			<data>
+			VkdsbyKcGmHqqNHeldSfuLGnmY7N71dbTrRgzOAVoPw=
+			</data>
+		</dict>
+		<key>Resources.bundle/close_eye@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			POPty/Tj4BIx6a0EY6osWEWz6hw=
+			</data>
+			<key>hash2</key>
+			<data>
+			HzmRh9AKHgM0/zLUJ8+zaHk7bvTGdE45CXdvqFz/IEE=
+			</data>
+		</dict>
+		<key>Resources.bundle/closeicon@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			97doEdyLXrf2eZ2afPFtFkIr/fk=
+			</data>
+			<key>hash2</key>
+			<data>
+			hDLCbQPYNmyTrFDtRLhekoVFzFzCeIKh5c+X6z70FoU=
+			</data>
+		</dict>
+		<key>Resources.bundle/day_time_icon@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -577,7 +609,18 @@
 			umFTPcBBO0d71cXBeoIic6fADP5dp/vpF/L3BovnHqg=
 			</data>
 		</dict>
-		<key>Resources.bundle/discern_guide_icon.png</key>
+		<key>Resources.bundle/day_time_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fsRz4VB20CaFbS+yzRtmFsh/L+Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			cHKi6MNtGeBZCtp+cfTnogLNHX/WNMe7sWJeuRzTDSQ=
+			</data>
+		</dict>
+		<key>Resources.bundle/discern_guide_icon@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -586,6 +629,83 @@
 			<key>hash2</key>
 			<data>
 			nqggDpkVt6Z2Hko9BahOpbWgsAeMCWTNlKiT459bTzc=
+			</data>
+		</dict>
+		<key>Resources.bundle/discern_guide_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			W0X2dssotSmB0Vjmkf/2nUf4Njg=
+			</data>
+			<key>hash2</key>
+			<data>
+			TFS2ybPlRiLcpcbia+ZEMNftBvuuyX8D9YSSCZHtkLE=
+			</data>
+		</dict>
+		<key>Resources.bundle/dongzuo1@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YeUMqF/2Rp7D0Zw+Eyd7HU9+djY=
+			</data>
+			<key>hash2</key>
+			<data>
+			Zeg43O3rTAp1aUX3lCrQStSYCfjHg0ltLnVZ6oQ7BzE=
+			</data>
+		</dict>
+		<key>Resources.bundle/dongzuo1@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			72clXhFnNZ7XhsUk9KUuValJiQs=
+			</data>
+			<key>hash2</key>
+			<data>
+			rwTmaYPLm7U5JbyF8bqR9U5luJVz6zG9y7pixH/3i+Y=
+			</data>
+		</dict>
+		<key>Resources.bundle/dongzuo2@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IhI+9MKY+7vdBiT+QRwHeHKw0eM=
+			</data>
+			<key>hash2</key>
+			<data>
+			VtghcpTxVK4TCTlwaQSItOvqmOXWLURcfh4f2ac+mMo=
+			</data>
+		</dict>
+		<key>Resources.bundle/dongzuo2@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ps62uifyukiGcZYMv8w0aefvkA8=
+			</data>
+			<key>hash2</key>
+			<data>
+			2JICxLrDBuBgDxJA/khYbCHXAg7Go7Fdahndjz66Lq0=
+			</data>
+		</dict>
+		<key>Resources.bundle/dongzuo3@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bq1oUDUXr6B+hy+Fh9LyPhd6s9k=
+			</data>
+			<key>hash2</key>
+			<data>
+			/94Q1Nk61NMoYOiyBMzsxNtEI1tCXfz+65QdQZGIdzg=
+			</data>
+		</dict>
+		<key>Resources.bundle/dongzuo3@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MgIe8cb/xsAvf9a6qoS6Ta0AqnY=
+			</data>
+			<key>hash2</key>
+			<data>
+			Sv7D4vBfYvsWbl4ExbRMPGlCTigD20og0blzOmq98xY=
 			</data>
 		</dict>
 		<key>Resources.bundle/en.lproj/Root.strings</key>
@@ -601,7 +721,7 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources.bundle/error_icon.png</key>
+		<key>Resources.bundle/error_icon@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -612,7 +732,18 @@
 			PGK0GU8jDcP5oHhKJWdu7duT4S7eBHBK7M8YXHNUBRw=
 			</data>
 		</dict>
-		<key>Resources.bundle/explanation_icon.png</key>
+		<key>Resources.bundle/error_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jfgtY20gLCgCx/jQIXZ5ddLXAGE=
+			</data>
+			<key>hash2</key>
+			<data>
+			gznePIVT1qTdyoxe+gyQ3XHXIMfOS+Q2GQf7k5lhFhM=
+			</data>
+		</dict>
+		<key>Resources.bundle/explanation_icon@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -623,7 +754,29 @@
 			UF+WQNRLrFEEFrun8GJgHErXx/HhQuhM8ske3/Z6/Wo=
 			</data>
 		</dict>
-		<key>Resources.bundle/logo_des.png</key>
+		<key>Resources.bundle/explanation_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bFrZeYrWD8yf+JuUGmdMTTuSAP4=
+			</data>
+			<key>hash2</key>
+			<data>
+			xjEPcv6PRWvBJ9XFUGmkVniq1cz+DVvD5Pv3ha3RDLg=
+			</data>
+		</dict>
+		<key>Resources.bundle/icon_cancle_image@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7ae6t0dM9kuAXtE2aQf7Mui3yrM=
+			</data>
+			<key>hash2</key>
+			<data>
+			6+9HREXEcUat70QlW/7V0K+XrGcxZG022ufPw62Us24=
+			</data>
+		</dict>
+		<key>Resources.bundle/logo_des@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -634,7 +787,18 @@
 			/m2X3/5Y+m3I9QdlHJwcR8AbtURhBoFtlRmdXNBaFQE=
 			</data>
 		</dict>
-		<key>Resources.bundle/logo_icon.png</key>
+		<key>Resources.bundle/logo_des@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kpJnCH8h8yMciy7e7K+K1zER8es=
+			</data>
+			<key>hash2</key>
+			<data>
+			P3ZIwnBacFsfe+fudTDEiPfEMFSQXFWc7WooybTa+xo=
+			</data>
+		</dict>
+		<key>Resources.bundle/logo_icon@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -645,7 +809,18 @@
 			Gt0kaIFdNWmlFwcJcNDZd4LwTx4r9+xQbzPR4uqV4VM=
 			</data>
 		</dict>
-		<key>Resources.bundle/manage_bg_icon.png</key>
+		<key>Resources.bundle/logo_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wtCnUZdWUrXZJ3QjIOlBYWu49yo=
+			</data>
+			<key>hash2</key>
+			<data>
+			4rR8WYjBamv/sfpBCxiozR275yFc/+wFBR7aSqEU5mg=
+			</data>
+		</dict>
+		<key>Resources.bundle/manage_bg_icon@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -656,7 +831,18 @@
 			oB0ARp5uvsYC1ykP36yOT/9yrnC4PJqbzPDriTm5Tlg=
 			</data>
 		</dict>
-		<key>Resources.bundle/manage_logo_icon.png</key>
+		<key>Resources.bundle/manage_bg_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hRiwKg8tUhz5OHBdAXo1MBQPHsw=
+			</data>
+			<key>hash2</key>
+			<data>
+			g7rRSgr51ExhTwf2hZ41rTUNgNaYaKEAMjipkq8gfCI=
+			</data>
+		</dict>
+		<key>Resources.bundle/manage_logo_icon@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -667,7 +853,18 @@
 			wOyMXsQhLbzMGB2iBpH+GSTg8bBt9NcEMxOet/gHZVg=
 			</data>
 		</dict>
-		<key>Resources.bundle/mn.png</key>
+		<key>Resources.bundle/manage_logo_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6Y5emBz0GhMXqxd73PDpyN+uhTs=
+			</data>
+			<key>hash2</key>
+			<data>
+			1Cq9XpviTTi64/DdCdxglQbMGOykNCM0BNmPxo7iONM=
+			</data>
+		</dict>
+		<key>Resources.bundle/mn@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -678,7 +875,18 @@
 			Tnhpa2FmtuhTDXaOURVX4HgzmUFBG5zRILy1mKyYILM=
 			</data>
 		</dict>
-		<key>Resources.bundle/moneryNumber_card_icon.png</key>
+		<key>Resources.bundle/mn@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ov+8x+lLMrom+nZv6uxgoOTuKYk=
+			</data>
+			<key>hash2</key>
+			<data>
+			j7vu/rvqeo9TP3KiLlvH7GEYVV98hFdPJ6IYDsajAzE=
+			</data>
+		</dict>
+		<key>Resources.bundle/moneryNumber_card_icon@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -689,7 +897,18 @@
 			GydpubBPeN+Mk4VAmSOV7x1QmjwzX/pdYAojRFij56s=
 			</data>
 		</dict>
-		<key>Resources.bundle/moneryNumber_icon.png</key>
+		<key>Resources.bundle/moneryNumber_card_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2ztyE7Y2/s37YNAJmsmauA8T+a4=
+			</data>
+			<key>hash2</key>
+			<data>
+			CeeYcd/eLDB4BD1MFZYct9ZL5Ff6hVGhatocRLW1gsE=
+			</data>
+		</dict>
+		<key>Resources.bundle/moneryNumber_icon@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -700,7 +919,18 @@
 			XoOkpi+cNP1g8sxfQbf9ZqHxakOXP1X2AYm+dn5dp4Y=
 			</data>
 		</dict>
-		<key>Resources.bundle/month_time_icon.png</key>
+		<key>Resources.bundle/moneryNumber_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jkakJ3AFzb2tGyOorrnVc5zKCOw=
+			</data>
+			<key>hash2</key>
+			<data>
+			1YhB4RbE9FkuIr/ZCOPFoXSED0Ne+7JwRVwUBdmAy1o=
+			</data>
+		</dict>
+		<key>Resources.bundle/month_time_icon@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -711,7 +941,40 @@
 			ehpB7A2s0JMfKsi0LkewFib42CvtRQUxsPQGpG3WYqQ=
 			</data>
 		</dict>
-		<key>Resources.bundle/pay_icon.png</key>
+		<key>Resources.bundle/month_time_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LvpTbipUh2x5wQ1iEobMe4IDJC4=
+			</data>
+			<key>hash2</key>
+			<data>
+			ud8msLJ8/rJ9gfn71Wo0LEoaLzBAG+jaIc6aBKj+lmU=
+			</data>
+		</dict>
+		<key>Resources.bundle/moreIcon@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			78EoJstBsVUklEWJkSubsxn/a7o=
+			</data>
+			<key>hash2</key>
+			<data>
+			EGyCskA46yHCnazFYz/dw5iAoM9XEkj7W/ijyOWHOFg=
+			</data>
+		</dict>
+		<key>Resources.bundle/open_eye@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BxGLq8duKladvevbczHu9ZU1LSA=
+			</data>
+			<key>hash2</key>
+			<data>
+			vimfhx6P7TwQy/2A4sDyBMeRQ4sa/z5atHDpXBQq5ek=
+			</data>
+		</dict>
+		<key>Resources.bundle/pay_icon@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -722,7 +985,18 @@
 			yk1LOoQIFU/QLRP0RgMAHqs/E4hn+oUHKkhl84w98zs=
 			</data>
 		</dict>
-		<key>Resources.bundle/phone_icon.png</key>
+		<key>Resources.bundle/pay_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CsZ/wDFQNHuIlFWiDxMfdNsSwZY=
+			</data>
+			<key>hash2</key>
+			<data>
+			nESSWEgC59/IbxlcV3VvS5yp9Blx0la6D6cfocge05o=
+			</data>
+		</dict>
+		<key>Resources.bundle/phone_icon@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -733,7 +1007,18 @@
 			UWZUiwNadHuwCVwd+Gt3LBlM76dI5rIfkDBzr8Ha3ww=
 			</data>
 		</dict>
-		<key>Resources.bundle/question_icon.png</key>
+		<key>Resources.bundle/phone_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qwkEdYTA8J+4sePV8EwS4coyXHk=
+			</data>
+			<key>hash2</key>
+			<data>
+			jeYfVO8wxgFZKBsmcre5ddOo8vzBiRO2TRHv4bX9jNI=
+			</data>
+		</dict>
+		<key>Resources.bundle/question_icon@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -744,7 +1029,18 @@
 			Pl5qtZODhMo1PZY9+sWdT4S16g0Po6/wSUwz1+ICce0=
 			</data>
 		</dict>
-		<key>Resources.bundle/re.png</key>
+		<key>Resources.bundle/question_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hnAnBHP0mbSY3aCdsazEcHxzKBc=
+			</data>
+			<key>hash2</key>
+			<data>
+			iodokQet1IV4bXrHYDh/P2Mmi0nRU48moFWCLxSy5To=
+			</data>
+		</dict>
+		<key>Resources.bundle/re@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -755,7 +1051,18 @@
 			2BknOr8IeZk2sQS0/fQmpB1I1d9mZyGpxJl7Wnvs+Qc=
 			</data>
 		</dict>
-		<key>Resources.bundle/recharge_icon.png</key>
+		<key>Resources.bundle/re@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5HJjZ9US3BW2UI7khVAwFmLy0b8=
+			</data>
+			<key>hash2</key>
+			<data>
+			hQ4zFmbFPi40rTT4AbH88fHnwHo4+D5WKNAjQnzEt0k=
+			</data>
+		</dict>
+		<key>Resources.bundle/recharge_icon@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -766,7 +1073,40 @@
 			YWfoQHZ6XDLN9iTjRQV3R1lirVIVdhJ/Al9sq/5HiI0=
 			</data>
 		</dict>
-		<key>Resources.bundle/right_icon.png</key>
+		<key>Resources.bundle/recharge_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			q8B2zkWennLU85CCY59lVjc5wSE=
+			</data>
+			<key>hash2</key>
+			<data>
+			s1uhINrt7WjO+oqFNXlvSIWasASVO01P03aVuz/uq4U=
+			</data>
+		</dict>
+		<key>Resources.bundle/renlian@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2wUSY+2z8fG8RmAe7sauActGjXw=
+			</data>
+			<key>hash2</key>
+			<data>
+			vXRKkJcjl+PJQzfEW0QbyT2Iklj7iWR8x2dvcltv5CM=
+			</data>
+		</dict>
+		<key>Resources.bundle/renlian@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Yv7BFFdCXNXk44rM1M5BbN7xGdw=
+			</data>
+			<key>hash2</key>
+			<data>
+			GshpM9lfR22k1YH2Bqa4QMu+OOAVqVbkmZ85gq9ddoA=
+			</data>
+		</dict>
+		<key>Resources.bundle/right_icon@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -777,7 +1117,29 @@
 			b0jB3KisTcZh/uXxoTrv29erQO5SILw0HUoUKWqH8SI=
 			</data>
 		</dict>
-		<key>Resources.bundle/saveMonery_icon.png</key>
+		<key>Resources.bundle/right_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8gaK5PWEFffsGhdWM483SBhhc4c=
+			</data>
+			<key>hash2</key>
+			<data>
+			U7EiZDkBGaZxqlnI8tZAhbyzJg71ucv+mzc9uT57uMk=
+			</data>
+		</dict>
+		<key>Resources.bundle/rili@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			B4OUc4Hqd7+sGa2aRg3/P0Ck8S8=
+			</data>
+			<key>hash2</key>
+			<data>
+			EH8nFePmKPEjRX+HcZlbsAMVfJa5zBADn5UlRvGA5uo=
+			</data>
+		</dict>
+		<key>Resources.bundle/saveMonery_icon@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -788,7 +1150,29 @@
 			Gvo6J4hIe21mUFMo6XGBf4QUotJVuFIiY0cikW9y1h8=
 			</data>
 		</dict>
-		<key>Resources.bundle/success_icon.png</key>
+		<key>Resources.bundle/saveMonery_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jymt5q1WV1SHnD24gNj7uJxc+wY=
+			</data>
+			<key>hash2</key>
+			<data>
+			SKhu2SIxjNlPB0IC+TGep8zEQNJRjYJCpUQWvkhSAl4=
+			</data>
+		</dict>
+		<key>Resources.bundle/sousuo@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gR4/8unRxovx4TcaUvzhu//UUfI=
+			</data>
+			<key>hash2</key>
+			<data>
+			/n7SxWp9m8XBtlpj/f2KDlDXnpIBiJkctNeJbSTOlaM=
+			</data>
+		</dict>
+		<key>Resources.bundle/success_icon@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -799,7 +1183,18 @@
 			jQSqxO4TGccuIe/SijnxKYIO0a5I9Sj8MWHxidoWgNE=
 			</data>
 		</dict>
-		<key>Resources.bundle/treasureMonery_icon.png</key>
+		<key>Resources.bundle/success_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HEedaz6Fb8XPhEJj7wSf2pVD0og=
+			</data>
+			<key>hash2</key>
+			<data>
+			aGNU7rUUL7McNUz9tXZR5b7nsUFkpBzSltHaeOdLJaw=
+			</data>
+		</dict>
+		<key>Resources.bundle/treasureMonery_icon@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -810,7 +1205,18 @@
 			EjFrv17AqHaaUcHJQDOOcU9ZynO9zsAge0ASATLJO0w=
 			</data>
 		</dict>
-		<key>Resources.bundle/user_icon.png</key>
+		<key>Resources.bundle/treasureMonery_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HN2FPE4XUoH8yDtB/Q/KbsZJRLg=
+			</data>
+			<key>hash2</key>
+			<data>
+			CXNRO6Wi00htRnv7FP+04Svp6pRqlSW/PqIqzDGTwHI=
+			</data>
+		</dict>
+		<key>Resources.bundle/user_icon@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -821,7 +1227,18 @@
 			0vLwbIEVFhlr7Kf+8c1g4sqyvD9aN0fzS0V4uJ5ihxU=
 			</data>
 		</dict>
-		<key>Resources.bundle/withdraw_icon.png</key>
+		<key>Resources.bundle/user_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JQCy2UXGCTo34gf5Wc+zxzgFFjI=
+			</data>
+			<key>hash2</key>
+			<data>
+			QNdDHnMJygTGsfmi/jO1SC3H0lUwAoLuVMLgYCDkOog=
+			</data>
+		</dict>
+		<key>Resources.bundle/withdraw_icon@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -832,7 +1249,18 @@
 			ss29kk4UUqaH2RtwxoLUoRTsnGWbnbjevtA4KSbjTUk=
 			</data>
 		</dict>
-		<key>Resources.bundle/zanwujiaoyi.png</key>
+		<key>Resources.bundle/withdraw_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4VMf6uKL67R6BBBTwILNW216mxU=
+			</data>
+			<key>hash2</key>
+			<data>
+			5WLI6yMav/Jitwj+l36MYB2VHnDrKWNYoBDNXk+9pIY=
+			</data>
+		</dict>
+		<key>Resources.bundle/zanwujiaoyi@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -841,6 +1269,28 @@
 			<key>hash2</key>
 			<data>
 			yxhjOpeCDqVLQ2QO6Dml+OiEW2kjfoEbgIGcImeXvcI=
+			</data>
+		</dict>
+		<key>Resources.bundle/zanwujiaoyi@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JTtoYarxRY0mn/IXf88Q3HpQ7uA=
+			</data>
+			<key>hash2</key>
+			<data>
+			4mN93mviDL4WvW9hXqYfIF0JctpBRVX0DiyEpo+R7rU=
+			</data>
+		</dict>
+		<key>jiazai.gif</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Z7o3xck9zNIVC1XqiBn6NWlJkhQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			cyV8giYOc+EI25qgWg0Dy+ii8yyL497QdbLrI7L3d9w=
 			</data>
 		</dict>
 	</dict>
