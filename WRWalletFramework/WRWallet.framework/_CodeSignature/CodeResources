@@ -4,17 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		WRjz1TMEMXKBAjN+Xfb7QyBNwwA=
-		</data>
 		<key>Headers/WRWalletManager.h</key>
 		<data>
 		Cd3PCc16abD3Uq6B5dnR1EbE/9U=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SjGkUT+YD2V2KvAcqiEIRoAVG54=
+		R6HBb40E80xHhjVkt8QeFn11Lj0=
 		</data>
 		<key>Resources.bundle/DAIKUAN@2x.png</key>
 		<data>
@@ -39,6 +35,10 @@
 		<key>Resources.bundle/GSDF@3x.png</key>
 		<data>
 		BWKqnPwxgiXGCH8vyfForCqwHAA=
+		</data>
+		<key>Resources.bundle/Root.plist</key>
+		<data>
+		jOhqEUF1/xyY+fuswiWT+ELC3dI=
 		</data>
 		<key>Resources.bundle/SFDG@2x.png</key>
 		<data>
@@ -237,6 +237,10 @@
 		<data>
 		78EoJstBsVUklEWJkSubsxn/a7o=
 		</data>
+		<key>Resources.bundle/openWallet.docx</key>
+		<data>
+		+UWd4RKNCkzbsIcI4AlmGkgT2Hk=
+		</data>
 		<key>Resources.bundle/open_eye@2x.png</key>
 		<data>
 		BxGLq8duKladvevbczHu9ZU1LSA=
@@ -320,6 +324,10 @@
 		<key>Resources.bundle/success_icon@3x.png</key>
 		<data>
 		HEedaz6Fb8XPhEJj7wSf2pVD0og=
+		</data>
+		<key>Resources.bundle/tianjinbao.docx</key>
+		<data>
+		/ZPnF+ec5jkFmMDYz1OCT8kwhqM=
 		</data>
 		<key>Resources.bundle/treasureMonery_icon@2x.png</key>
 		<data>
@@ -435,6 +443,17 @@
 			<key>hash2</key>
 			<data>
 			i/G9UP0llI4lm/tgyr5WJeynk3Mgr/aqn0UTKepWQbM=
+			</data>
+		</dict>
+		<key>Resources.bundle/Root.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jOhqEUF1/xyY+fuswiWT+ELC3dI=
+			</data>
+			<key>hash2</key>
+			<data>
+			m26DmegPkB5jwUJkVEtLlObYALX8He100Ny0+NNJg/g=
 			</data>
 		</dict>
 		<key>Resources.bundle/SFDG@2x.png</key>
@@ -967,6 +986,17 @@
 			EGyCskA46yHCnazFYz/dw5iAoM9XEkj7W/ijyOWHOFg=
 			</data>
 		</dict>
+		<key>Resources.bundle/openWallet.docx</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+UWd4RKNCkzbsIcI4AlmGkgT2Hk=
+			</data>
+			<key>hash2</key>
+			<data>
+			LqF1HC0Dg4pt0VXUuaR9swYb79rCocBOJBfNtUuyuJ4=
+			</data>
+		</dict>
 		<key>Resources.bundle/open_eye@2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -1196,6 +1226,17 @@
 			<key>hash2</key>
 			<data>
 			aGNU7rUUL7McNUz9tXZR5b7nsUFkpBzSltHaeOdLJaw=
+			</data>
+		</dict>
+		<key>Resources.bundle/tianjinbao.docx</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/ZPnF+ec5jkFmMDYz1OCT8kwhqM=
+			</data>
+			<key>hash2</key>
+			<data>
+			3iPJCb9U1HQnmiTRqm0nJq3nZ8g/ekTjRjNDL9eyWGw=
 			</data>
 		</dict>
 		<key>Resources.bundle/treasureMonery_icon@2x.png</key>

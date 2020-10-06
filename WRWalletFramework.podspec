@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WRWalletFramework"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "test WRWalletFramework."
 
   # This description is used to generate tags and improve search results.
