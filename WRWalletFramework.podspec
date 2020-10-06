@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "WRWalletFramework"
   spec.version      = "0.0.5"
-  spec.summary      = "test WRWalletFramework."
+  spec.summary      = "test WRWalletFramework 1006."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-test WRWalletFramework.
+test WRWalletFramework 1006.
                    DESC
 
   spec.homepage     = "https://github.com/marsLiuFei/WRWallet"
